@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C6curben11AppDelegate"
+provides-member:
+- ["C6curben11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "centerContainer"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "IQKeyboardManager"
+- "MMDrawerController"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- "UIWindow"
+depends-member:
+- !private ["Ps9AnyObject", "IQKeyboardManager"]
+- ["Ps9AnyObject", "MMDrawerController"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "enable"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sharedManager"]
+- !private ["Ps9AnyObject", "statusBarStyle"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C6curben11AppDelegate", "Bool"]
+- !private ["C6curben11AppDelegate", "IQKeyboardManager"]
+- ["C6curben11AppDelegate", "MMDrawerController"]
+- ["C6curben11AppDelegate", "UIApplication"]
+- ["C6curben11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C6curben11AppDelegate", "UIWindow"]
+- ["C6curben11AppDelegate", "application"]
+- ["C6curben11AppDelegate", "applicationDidBecomeActive"]
+- ["C6curben11AppDelegate", "applicationDidEnterBackground"]
+- ["C6curben11AppDelegate", "applicationDidFinishLaunching"]
+- ["C6curben11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C6curben11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C6curben11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C6curben11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C6curben11AppDelegate", "applicationSignificantTimeChange"]
+- ["C6curben11AppDelegate", "applicationWillEnterForeground"]
+- ["C6curben11AppDelegate", "applicationWillResignActive"]
+- ["C6curben11AppDelegate", "applicationWillTerminate"]
+- ["C6curben11AppDelegate", "centerContainer"]
+- ["C6curben11AppDelegate", "deinit"]
+- ["C6curben11AppDelegate", "init"]
+- ["C6curben11AppDelegate", "window"]
+- !private ["Ps7CVarArg", "IQKeyboardManager"]
+- ["Ps7CVarArg", "MMDrawerController"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "enable"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sharedManager"]
+- !private ["Ps7CVarArg", "statusBarStyle"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "IQKeyboardManager"]
+- ["Ps28CustomDebugStringConvertible", "MMDrawerController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "enable"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedManager"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarStyle"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "IQKeyboardManager"]
+- ["Ps23CustomStringConvertible", "MMDrawerController"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "enable"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sharedManager"]
+- !private ["Ps23CustomStringConvertible", "statusBarStyle"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "IQKeyboardManager"]
+- ["Ps9Equatable", "MMDrawerController"]
+- !private ["Ps9Equatable", "UIApplication"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "enable"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lightContent"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sharedManager"]
+- !private ["Ps9Equatable", "statusBarStyle"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "IQKeyboardManager"]
+- ["Ps8Hashable", "MMDrawerController"]
+- !private ["Ps8Hashable", "UIApplication"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "enable"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lightContent"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sharedManager"]
+- !private ["Ps8Hashable", "statusBarStyle"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["C22IQKeyboardManagerSwift17IQKeyboardManager", "enable"]
+- !private ["C22IQKeyboardManagerSwift17IQKeyboardManager", "sharedManager"]
+- ["CSo18MMDrawerController", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "IQKeyboardManager"]
+- ["CSo8NSObject", "MMDrawerController"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "centerContainer"]
+- !private ["CSo8NSObject", "enable"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "sharedManager"]
+- !private ["CSo8NSObject", "statusBarStyle"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "IQKeyboardManager"]
+- ["PSo16NSObjectProtocol", "MMDrawerController"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "enable"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sharedManager"]
+- !private ["PSo16NSObjectProtocol", "statusBarStyle"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps16RawRepresentable", "lightContent"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["CSo13UIApplication", "statusBarStyle"]
+- !private ["PSo21UIApplicationDelegate", "IQKeyboardManager"]
+- ["PSo21UIApplicationDelegate", "MMDrawerController"]
+- !private ["PSo21UIApplicationDelegate", "UIApplication"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "enable"]
+- !private ["PSo27UIGestureRecognizerDelegate", "sharedManager"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "IQKeyboardManager"]
+- ["CSo11UIResponder", "MMDrawerController"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "centerContainer"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "statusBarStyle"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "IQKeyboardManager"]
+- ["PSo30UIResponderStandardEditActions", "MMDrawerController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "statusBarStyle"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["OSC16UIStatusBarStyle", "lightContent"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["CSo16UIViewController", "init"]
+- !private ["Ps9_Hashable", "IQKeyboardManager"]
+- ["Ps9_Hashable", "MMDrawerController"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "enable"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lightContent"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sharedManager"]
+- !private ["Ps9_Hashable", "statusBarStyle"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6curben11AppDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "C22IQKeyboardManagerSwift17IQKeyboardManager"
+- "CSo18MMDrawerController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps16RawRepresentable"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "OSC16UIStatusBarStyle"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerVisualState.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerBarButtonItem.h"
+- "/Users/sol369/Downloads/curben-oc-master/curben-BridgingHeader.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/UIViewController+MMDrawerController.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
+interface-hash: "c35547b4969cbe63c35eac622bad9b3b"

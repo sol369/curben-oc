@@ -31,8 +31,6 @@
 		1CC6C2321F4848BA00FE3545 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6C2301F4848BA00FE3545 /* TextFieldValidator.m */; };
 		1CC6C2331F4848BA00FE3545 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C2311F4848BA00FE3545 /* error@2x.png */; };
 		66633D7FC3417335D03C3223 /* Pods_curben.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4EF3CCA31B47DC8360B73 /* Pods_curben.framework */; };
-		E271A5821F53350F0090027F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5751F5334140090027F /* Alamofire.framework */; };
-		E271A5831F53350F0090027F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5751F5334140090027F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E271A5BD1F5335980090027F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5B81F53356D0090027F /* SwiftyJSON.framework */; };
 		E271A5BE1F5335980090027F /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5B81F53356D0090027F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E271A5C11F53359D0090027F /* DGElasticPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59E1F53356D0090027F /* DGElasticPullToRefresh.framework */; };
@@ -53,6 +51,8 @@
 		E2D5BF9D1F5320F00043CE43 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF8D1F5320F00043CE43 /* UIImageView+HighlightedWebCache.m */; };
 		E2D5BF9E1F5320F00043CE43 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF8F1F5320F00043CE43 /* UIImageView+WebCache.m */; };
 		E2D5BF9F1F5320F00043CE43 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF911F5320F00043CE43 /* UIView+WebCacheOperation.m */; };
+		FC5D6D461F5342AD00251C2D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; };
+		FC5D6D471F5342AD00251C2D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,13 +104,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = E4202FE01B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
-		};
-		E271A5841F53350F0090027F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E271A5691F5334140090027F /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
 		};
 		E271A59B1F53356D0090027F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -252,6 +245,13 @@
 			remoteGlobalIDString = 80D06C57ACF1C8DB01964C77EFDA77FA;
 			remoteInfo = EFInternetIndicator;
 		};
+		FC5D6D481F5342AD00251C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E271A5871F53356D0090027F /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -264,7 +264,7 @@
 				E271A5BE1F5335980090027F /* SwiftyJSON.framework in Embed Frameworks */,
 				E271A5C21F53359D0090027F /* DGElasticPullToRefresh.framework in Embed Frameworks */,
 				E271A5C61F5335A30090027F /* EFInternetIndicator.framework in Embed Frameworks */,
-				E271A5831F53350F0090027F /* Alamofire.framework in Embed Frameworks */,
+				FC5D6D471F5342AD00251C2D /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66633D7FC3417335D03C3223 /* Pods_curben.framework in Frameworks */,
+				FC5D6D461F5342AD00251C2D /* Alamofire.framework in Frameworks */,
 				E271A5C51F5335A30090027F /* EFInternetIndicator.framework in Frameworks */,
-				E271A5821F53350F0090027F /* Alamofire.framework in Frameworks */,
 				E271A5C11F53359D0090027F /* DGElasticPullToRefresh.framework in Frameworks */,
 				E271A5BD1F5335980090027F /* SwiftyJSON.framework in Frameworks */,
 			);
@@ -571,10 +571,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				E271A5851F53350F0090027F /* PBXTargetDependency */,
 				E271A5C01F5335980090027F /* PBXTargetDependency */,
 				E271A5C41F53359D0090027F /* PBXTargetDependency */,
 				E271A5C81F5335A30090027F /* PBXTargetDependency */,
+				FC5D6D491F5342AD00251C2D /* PBXTargetDependency */,
 			);
 			name = curben;
 			productName = curben;
@@ -593,7 +593,7 @@
 				TargetAttributes = {
 					1C5EA66F1F4844DC007F447C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = J5B623WV47;
+						DevelopmentTeam = 96Q26UST5X;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -895,7 +895,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -944,11 +944,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E271A5851F53350F0090027F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = E271A5841F53350F0090027F /* PBXContainerItemProxy */;
-		};
 		E271A5C01F5335980090027F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
@@ -963,6 +958,11 @@
 			isa = PBXTargetDependency;
 			name = EFInternetIndicator;
 			targetProxy = E271A5C71F5335A30090027F /* PBXContainerItemProxy */;
+		};
+		FC5D6D491F5342AD00251C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = FC5D6D481F5342AD00251C2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1089,10 +1089,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96Q26UST5X;
 				INFOPLIST_FILE = curben/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.relinns.curben;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soloinc.curben;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1110,10 +1111,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96Q26UST5X;
 				INFOPLIST_FILE = curben/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.relinns.curben;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soloinc.curben;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

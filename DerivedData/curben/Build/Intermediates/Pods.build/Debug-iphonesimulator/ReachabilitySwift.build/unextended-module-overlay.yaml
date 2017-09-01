@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReachabilitySwift.build/unextended-module.modulemap',
+    }]
+  }]
+}

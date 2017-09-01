@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Direction"
+- "Orientation"
+- "=="
+- "=="
+provides-nominal:
+- "O11ImageViewer9Direction"
+- "O11ImageViewer11Orientation"
+provides-member:
+- ["VSC7CGPoint", ""]
+- ["O11ImageViewer9Direction", ""]
+- ["O11ImageViewer11Orientation", ""]
+- ["VSC7CGPoint", "inverted"]
+- ["VSC7CGPoint", "direction"]
+- ["VSC7CGPoint", "orientation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "<="
+- "=="
+- !private ">"
+- "CGPoint"
+- "Direction"
+- "Orientation"
+- !private "abs"
+- !private "||"
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["VSC7CGPoint", "CGPoint"]
+- ["VSC7CGPoint", "Direction"]
+- ["VSC7CGPoint", "Orientation"]
+- !private ["VSC7CGPoint", "abs"]
+- ["VSC7CGPoint", "direction"]
+- !private ["VSC7CGPoint", "init"]
+- ["VSC7CGPoint", "inverted"]
+- ["VSC7CGPoint", "orientation"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "abs"]
+- !private ["Ps28CustomDebugStringConvertible", "direction"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "left"]
+- !private ["Ps28CustomDebugStringConvertible", "right"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "abs"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "direction"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "CGPoint"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "abs"]
+- !private ["Ps17CustomReflectable", "direction"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "left"]
+- !private ["Ps17CustomReflectable", "right"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["O11ImageViewer9Direction", "=="]
+- ["O11ImageViewer9Direction", "_toAnyHashable"]
+- ["O11ImageViewer9Direction", "deinit"]
+- ["O11ImageViewer9Direction", "down"]
+- ["O11ImageViewer9Direction", "hashValue"]
+- ["O11ImageViewer9Direction", "left"]
+- ["O11ImageViewer9Direction", "none"]
+- ["O11ImageViewer9Direction", "right"]
+- ["O11ImageViewer9Direction", "up"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "abs"]
+- !private ["Ps9Equatable", "direction"]
+- !private ["Ps9Equatable", "down"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "horizontal"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "left"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "up"]
+- !private ["Ps9Equatable", "vertical"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "left"]
+- !private ["Ps23ExpressibleByNilLiteral", "right"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "down"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "horizontal"]
+- !private ["Ps8Hashable", "left"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "right"]
+- !private ["Ps8Hashable", "up"]
+- !private ["Ps8Hashable", "vertical"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Sq", "left"]
+- !private ["Sq", "right"]
+- ["O11ImageViewer11Orientation", "=="]
+- ["O11ImageViewer11Orientation", "_toAnyHashable"]
+- ["O11ImageViewer11Orientation", "deinit"]
+- ["O11ImageViewer11Orientation", "hashValue"]
+- ["O11ImageViewer11Orientation", "horizontal"]
+- ["O11ImageViewer11Orientation", "none"]
+- ["O11ImageViewer11Orientation", "vertical"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "down"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "horizontal"]
+- !private ["Ps9_Hashable", "left"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "right"]
+- !private ["Ps9_Hashable", "up"]
+- !private ["Ps9_Hashable", "vertical"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGPoint"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "abs"]
+- !private ["Ps21_ObjectiveCBridgeable", "direction"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "left"]
+- !private ["Ps21_ObjectiveCBridgeable", "right"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Vs26_OptionalNilComparisonType", "left"]
+- !private ["Vs26_OptionalNilComparisonType", "right"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "VSC7CGPoint"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "O11ImageViewer9Direction"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- "O11ImageViewer11Orientation"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/ImageViewer/ImageViewer-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ImageViewer.build/unextended-module.modulemap"
+interface-hash: "f30438e2712000b7ff4f03800a44d4dd"

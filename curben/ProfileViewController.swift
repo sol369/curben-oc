@@ -35,15 +35,33 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     @IBOutlet var scrollView: UIScrollView!
     
     
+    @IBOutlet var generalLine: UIView!
+    
+    @IBOutlet var paymentLine: UIView!
     
     
+    @IBOutlet var editButtonLabel: UILabel!
+    @IBOutlet var lockImage: UIImageView!
+    @IBOutlet var doneButton: UIButton!
+    @IBOutlet var doneButtonView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        editButtonLabel.isUserInteractionEnabled = true
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ProfileViewController.editButtonPressed(_:)))
+        
+        editButtonLabel.addGestureRecognizer(tapGesture)
         
         startMonitoringInternet()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        doneButtonView.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,12 +69,26 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         // Dispose of any resources that can be recreated.
     }
     
-
- 
-    
-    
     
     //Button Actions
+    
+    @IBAction func editButtonPressed(_ sender: AnyObject) {
+        
+        if doneButtonView.isHidden {
+            
+            doneButtonView.isHidden = false
+            lockImage.isHidden = true
+            
+        } else {
+            
+            doneButtonView.isHidden = true
+            lockImage.isHidden = false
+            
+        }
+        
+        
+    }
+    
     
     @IBAction func homeBtn(_ sender: UIBarButtonItem) {
 
@@ -68,22 +100,19 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         vcCenter.viewControllers = [vc!]
         
         
-
-        
     }
     
-    
-    
-    
-    
+
     @IBAction func generalBtn(_ sender: UIButton) {
         
      
         generalLabel.textColor = appColor
-        generalView.backgroundColor = UIColor.white
+        generalLine.backgroundColor = appColor
+        //generalView.backgroundColor = UIColor.white
         
         paymentLabel.textColor = UIColor.white
-        paymentView.backgroundColor = grayColor
+        paymentLine.backgroundColor = UIColor.clear
+        //paymentView.backgroundColor = grayColor
         
         scrollLeft()
     }
@@ -93,10 +122,12 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         
         
         generalLabel.textColor = UIColor.white
-        generalView.backgroundColor = grayColor
+        generalLine.backgroundColor = UIColor.clear
+        //generalView.backgroundColor = grayColor
         
         paymentLabel.textColor = appColor
-        paymentView.backgroundColor = UIColor.white
+        paymentLine.backgroundColor = appColor
+        //paymentView.backgroundColor = UIColor.white
         
         scrollRight()
     }
@@ -106,54 +137,43 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     func scrollRight(){
         
         //Scroll to right
+        //self.scrollView.scrollRectToVisible(CGRect(x:self.view.frame.width,y:0,width:self.scrollView.frame.size.width,height:self.scrollView.frame.size.height), animated: true)
         
-        self.scrollView.scrollRectToVisible(CGRect(x:self.scrollView.frame.size.width,y:0,width:self.scrollView.frame.size.width,height:self.scrollView.frame.size.height), animated: true)
+        self.scrollView.setContentOffset(CGPoint(x:self.scrollView.frame.size.width,y:0), animated: true)
         
     }
     
-    
-    
+
     func scrollLeft(){
         
         //Scrol to left
-        
         self.scrollView.scrollRectToVisible(CGRect(x:0,y:0,width:self.scrollView.frame.size.width,height:self.scrollView.frame.size.height), animated: true)
         
     }
-    
-    
     
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView == self.scrollView {
             
             //scrolling left
-            
             if  scrollView.contentOffset == CGPoint(x:0,y:0){
                 
+                //generalLabel.textColor = appColor
+                //generalView.backgroundColor = UIColor.white
                 
-                
-                generalLabel.textColor = appColor
-                generalView.backgroundColor = UIColor.white
-                
-                paymentLabel.textColor = UIColor.white
-                paymentView.backgroundColor = grayColor
-                
+                //paymentLabel.textColor = UIColor.white
+                //paymentView.backgroundColor = grayColor
                 
             }
             
             //scrolling right
-            
             if scrollView.contentOffset == CGPoint(x:self.scrollView.frame.size.width,y:0){
                 
-            
+                //generalLabel.textColor = UIColor.white
+                //generalView.backgroundColor = grayColor
                 
-                generalLabel.textColor = UIColor.white
-                generalView.backgroundColor = grayColor
-                
-                paymentLabel.textColor = appColor
-                paymentView.backgroundColor = UIColor.white
-                
+                //paymentLabel.textColor = appColor
+                //paymentView.backgroundColor = UIColor.white
                 
                 
             }
