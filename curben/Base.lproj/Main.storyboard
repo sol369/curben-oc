@@ -889,7 +889,7 @@
                                 <rect key="frame" x="0.0" y="114" width="320" height="404"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rLP-0w-z0i">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ3-E8-IZF">
                                                 <rect key="frame" x="15" y="39" width="39" height="16"/>
@@ -898,17 +898,20 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZd-89-Z4N">
-                                                <rect key="frame" x="15" y="75" width="290" height="40"/>
+                                                <rect key="frame" x="15" y="75" width="290" height="37"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="AV2-XK-YBM">
                                                         <rect key="frame" x="257" y="11" width="18" height="18"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" secondItem="AV2-XK-YBM" secondAttribute="height" id="CDZ-fr-cZH"/>
-                                                            <constraint firstAttribute="height" constant="18" id="R0j-rg-OLe"/>
+                                                            <constraint firstAttribute="height" constant="18" id="cfB-oi-m9y"/>
+                                                            <constraint firstAttribute="width" constant="18" id="zmb-hB-fyh"/>
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="T@T.COM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3UO-hP-Ihq" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="0.0" y="-2" width="290" height="42"/>
+                                                        <rect key="frame" x="0.0" y="-2" width="290" height="39"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="39" id="xhT-Sp-OIx"/>
+                                                        </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -923,12 +926,11 @@
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="3UO-hP-Ihq" secondAttribute="bottom" id="21K-NJ-rOH"/>
-                                                    <constraint firstItem="3UO-hP-Ihq" firstAttribute="leading" secondItem="tZd-89-Z4N" secondAttribute="leading" id="2yM-gK-jTl"/>
-                                                    <constraint firstItem="AV2-XK-YBM" firstAttribute="top" secondItem="tZd-89-Z4N" secondAttribute="top" constant="11" id="L5f-Zk-Vu3"/>
-                                                    <constraint firstAttribute="trailing" secondItem="AV2-XK-YBM" secondAttribute="trailing" constant="15" id="Ml1-8Q-kYG"/>
-                                                    <constraint firstItem="AV2-XK-YBM" firstAttribute="centerY" secondItem="tZd-89-Z4N" secondAttribute="centerY" id="Onq-Uh-f5h"/>
-                                                    <constraint firstItem="3UO-hP-Ihq" firstAttribute="top" secondItem="tZd-89-Z4N" secondAttribute="top" constant="-2" id="jTg-qZ-Ahi"/>
+                                                    <constraint firstItem="3UO-hP-Ihq" firstAttribute="leading" secondItem="tZd-89-Z4N" secondAttribute="leading" id="De4-mt-QmO"/>
+                                                    <constraint firstItem="3UO-hP-Ihq" firstAttribute="top" secondItem="tZd-89-Z4N" secondAttribute="top" constant="-2" id="FUF-hI-H7R"/>
+                                                    <constraint firstAttribute="trailing" secondItem="AV2-XK-YBM" secondAttribute="trailing" constant="15" id="Fr3-7a-XU1"/>
+                                                    <constraint firstItem="AV2-XK-YBM" firstAttribute="top" secondItem="tZd-89-Z4N" secondAttribute="top" constant="11" id="Ibz-FS-Lhs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="3UO-hP-Ihq" secondAttribute="trailing" id="ljO-Sm-XfP"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-m4-zlp">
@@ -941,6 +943,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="DVc-m4-zlp" firstAttribute="centerX" secondItem="rLP-0w-z0i" secondAttribute="centerX" constant="131.25" id="I85-cT-qLj"/>
+                                            <constraint firstAttribute="height" constant="132" id="Iyr-AB-bfp"/>
                                             <constraint firstItem="tZd-89-Z4N" firstAttribute="leading" secondItem="pZ3-E8-IZF" secondAttribute="leading" id="Nu1-Yo-Zgt"/>
                                             <constraint firstAttribute="trailing" secondItem="tZd-89-Z4N" secondAttribute="trailing" constant="15" id="QZg-w9-jVU"/>
                                             <constraint firstAttribute="bottom" secondItem="tZd-89-Z4N" secondAttribute="bottom" constant="20" id="Wxe-UM-XrF"/>
@@ -951,18 +954,166 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iwb-3c-aPp">
-                                        <rect key="frame" x="320" y="0.0" width="320" height="135"/>
+                                        <rect key="frame" x="320" y="0.0" width="320" height="346"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P31-oq-5do">
+                                                <rect key="frame" x="285" y="15" width="27" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="27" id="hWl-5V-g2E"/>
+                                                    <constraint firstAttribute="height" constant="14" id="o7I-Mb-jJt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="596-Uy-jR7" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="23" y="37" width="274" height="40"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="CARDHOLDER NAME"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0039215686269999999" green="0.098039215690000001" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PDg-z1-VgR" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="23" y="85" width="274" height="40"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="CARD NUMBER"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0039215686269999999" green="0.098039215690000001" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyr-80-ikK" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="23" y="133" width="274" height="40"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="EXP MONTH"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0039215686269999999" green="0.098039215690000001" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2G1-7K-cgG" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="23" y="181" width="274" height="40"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="EXP YEAR"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0039215686269999999" green="0.098039215690000001" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-nJ-wEq" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="23" y="229" width="274" height="40"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="CVC"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0039215686269999999" green="0.098039215690000001" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6Oy-nb-SNU">
+                                                <rect key="frame" x="272" y="101" width="18" height="18"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="oPu-0Y-XY0">
+                                                <rect key="frame" x="272" y="150" width="18" height="18"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="JUV-4N-5jd">
+                                                <rect key="frame" x="272" y="197" width="18" height="18"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6yu-a6-6Pd">
+                                                <rect key="frame" x="272" y="245" width="18" height="18"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLockIcon" translatesAutoresizingMaskIntoConstraints="NO" id="z2q-8E-Ops">
+                                                <rect key="frame" x="272" y="53" width="18" height="18"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="18" id="6xH-iq-Al5"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="hyr-80-ikK" firstAttribute="top" secondItem="6Oy-nb-SNU" secondAttribute="bottom" constant="14" id="3LQ-yR-dlt"/>
+                                            <constraint firstItem="PDg-z1-VgR" firstAttribute="leading" secondItem="Iwb-3c-aPp" secondAttribute="leading" constant="23" id="45C-Jj-WvA"/>
+                                            <constraint firstItem="6Oy-nb-SNU" firstAttribute="leading" secondItem="oPu-0Y-XY0" secondAttribute="leading" id="4lu-QJ-sbc"/>
+                                            <constraint firstItem="JUV-4N-5jd" firstAttribute="leading" secondItem="6yu-a6-6Pd" secondAttribute="leading" id="6GU-Rp-Q9g"/>
+                                            <constraint firstItem="2G1-7K-cgG" firstAttribute="leading" secondItem="Iwb-3c-aPp" secondAttribute="leading" constant="23" id="8Iw-x3-qdM"/>
+                                            <constraint firstItem="6yu-a6-6Pd" firstAttribute="top" secondItem="2G1-7K-cgG" secondAttribute="bottom" constant="24" id="9kD-7M-CkN"/>
+                                            <constraint firstAttribute="trailing" secondItem="596-Uy-jR7" secondAttribute="trailing" constant="23" id="BTp-6C-oAk"/>
+                                            <constraint firstItem="hyr-80-ikK" firstAttribute="top" secondItem="PDg-z1-VgR" secondAttribute="bottom" constant="8" symbolic="YES" id="Bcz-J0-8sy"/>
+                                            <constraint firstItem="oPu-0Y-XY0" firstAttribute="top" secondItem="PDg-z1-VgR" secondAttribute="bottom" constant="25" id="FKK-s5-Q0g"/>
+                                            <constraint firstItem="ffJ-nJ-wEq" firstAttribute="top" secondItem="2G1-7K-cgG" secondAttribute="bottom" constant="8" symbolic="YES" id="KHg-71-MN7"/>
+                                            <constraint firstItem="2G1-7K-cgG" firstAttribute="top" secondItem="oPu-0Y-XY0" secondAttribute="bottom" constant="13" id="MXY-ix-eVo"/>
+                                            <constraint firstItem="596-Uy-jR7" firstAttribute="leading" secondItem="Iwb-3c-aPp" secondAttribute="leading" constant="23" id="NWO-mR-oLZ"/>
+                                            <constraint firstItem="z2q-8E-Ops" firstAttribute="trailing" secondItem="6Oy-nb-SNU" secondAttribute="trailing" id="OHl-xo-oXn"/>
+                                            <constraint firstAttribute="trailing" secondItem="PDg-z1-VgR" secondAttribute="trailing" constant="23" id="OSW-eR-17v"/>
+                                            <constraint firstItem="PDg-z1-VgR" firstAttribute="leading" secondItem="hyr-80-ikK" secondAttribute="leading" id="QAB-sS-vhm"/>
+                                            <constraint firstItem="6Oy-nb-SNU" firstAttribute="trailing" secondItem="oPu-0Y-XY0" secondAttribute="trailing" id="UEe-KC-Upv"/>
+                                            <constraint firstItem="2G1-7K-cgG" firstAttribute="top" secondItem="hyr-80-ikK" secondAttribute="bottom" constant="8" symbolic="YES" id="UdP-Ls-O2c"/>
+                                            <constraint firstItem="oPu-0Y-XY0" firstAttribute="leading" secondItem="JUV-4N-5jd" secondAttribute="leading" id="XOa-SV-yq5"/>
+                                            <constraint firstItem="P31-oq-5do" firstAttribute="top" secondItem="Iwb-3c-aPp" secondAttribute="top" constant="15" id="abR-gG-kPl"/>
+                                            <constraint firstItem="ffJ-nJ-wEq" firstAttribute="leading" secondItem="Iwb-3c-aPp" secondAttribute="leading" constant="23" id="dkL-Qo-wHh"/>
+                                            <constraint firstItem="PDg-z1-VgR" firstAttribute="top" secondItem="596-Uy-jR7" secondAttribute="bottom" constant="8" symbolic="YES" id="etw-sl-ADX"/>
+                                            <constraint firstAttribute="bottom" secondItem="6yu-a6-6Pd" secondAttribute="bottom" constant="83" id="g0a-Uc-oWe"/>
+                                            <constraint firstItem="ffJ-nJ-wEq" firstAttribute="top" secondItem="JUV-4N-5jd" secondAttribute="bottom" constant="14" id="jM8-eh-oNj"/>
+                                            <constraint firstItem="596-Uy-jR7" firstAttribute="top" secondItem="P31-oq-5do" secondAttribute="bottom" constant="8" symbolic="YES" id="joH-xA-QWw"/>
+                                            <constraint firstItem="oPu-0Y-XY0" firstAttribute="trailing" secondItem="JUV-4N-5jd" secondAttribute="trailing" id="mKW-Pn-WAI"/>
+                                            <constraint firstItem="6Oy-nb-SNU" firstAttribute="top" secondItem="596-Uy-jR7" secondAttribute="bottom" constant="24" id="mY9-4y-b5l"/>
+                                            <constraint firstItem="JUV-4N-5jd" firstAttribute="top" secondItem="hyr-80-ikK" secondAttribute="bottom" constant="24" id="mz7-L3-Z1f"/>
+                                            <constraint firstItem="z2q-8E-Ops" firstAttribute="leading" secondItem="6Oy-nb-SNU" secondAttribute="leading" id="nUy-CF-aGQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="ffJ-nJ-wEq" secondAttribute="trailing" constant="23" id="nwI-aQ-lg7"/>
+                                            <constraint firstItem="hyr-80-ikK" firstAttribute="leading" secondItem="Iwb-3c-aPp" secondAttribute="leading" constant="23" id="omp-gz-5EJ"/>
+                                            <constraint firstItem="2G1-7K-cgG" firstAttribute="leading" secondItem="ffJ-nJ-wEq" secondAttribute="leading" id="pGN-8t-tPV"/>
+                                            <constraint firstItem="JUV-4N-5jd" firstAttribute="trailing" secondItem="6yu-a6-6Pd" secondAttribute="trailing" id="q6k-om-65Y"/>
+                                            <constraint firstAttribute="trailing" secondItem="2G1-7K-cgG" secondAttribute="trailing" constant="23" id="rmb-vq-tZa"/>
+                                            <constraint firstItem="hyr-80-ikK" firstAttribute="leading" secondItem="2G1-7K-cgG" secondAttribute="leading" id="s65-lK-cZt"/>
+                                            <constraint firstAttribute="trailing" secondItem="z2q-8E-Ops" secondAttribute="trailing" constant="30" id="tIw-Hx-5Xd"/>
+                                            <constraint firstItem="PDg-z1-VgR" firstAttribute="top" secondItem="z2q-8E-Ops" secondAttribute="bottom" constant="14" id="uM0-ZW-Y85"/>
+                                            <constraint firstItem="596-Uy-jR7" firstAttribute="leading" secondItem="PDg-z1-VgR" secondAttribute="leading" id="vFn-lT-8rm"/>
+                                            <constraint firstItem="z2q-8E-Ops" firstAttribute="top" secondItem="P31-oq-5do" secondAttribute="bottom" constant="24" id="vg3-PR-XEr"/>
+                                            <constraint firstAttribute="trailing" secondItem="P31-oq-5do" secondAttribute="trailing" constant="8" id="wLP-JX-ZiZ"/>
+                                            <constraint firstItem="596-Uy-jR7" firstAttribute="centerX" secondItem="Iwb-3c-aPp" secondAttribute="centerX" id="yau-hL-VhM"/>
+                                            <constraint firstAttribute="trailing" secondItem="hyr-80-ikK" secondAttribute="trailing" constant="23" id="zcK-Il-sfC"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Iwb-3c-aPp" secondAttribute="trailing" constant="-375" id="6vZ-dj-y1O"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iwb-3c-aPp" secondAttribute="trailing" constant="-320" id="6vZ-dj-y1O"/>
                                     <constraint firstItem="rLP-0w-z0i" firstAttribute="top" secondItem="4Aw-lA-zBE" secondAttribute="top" id="MTq-d1-QAG"/>
                                     <constraint firstItem="rLP-0w-z0i" firstAttribute="leading" secondItem="4Aw-lA-zBE" secondAttribute="leading" id="TlF-ZN-DTg"/>
                                     <constraint firstItem="Iwb-3c-aPp" firstAttribute="leading" secondItem="rLP-0w-z0i" secondAttribute="trailing" id="fyK-z5-hVd"/>
                                     <constraint firstItem="Iwb-3c-aPp" firstAttribute="top" secondItem="4Aw-lA-zBE" secondAttribute="top" id="gnF-2u-LeH"/>
-                                    <constraint firstAttribute="bottom" secondItem="rLP-0w-z0i" secondAttribute="bottom" constant="368.5" id="k7K-rS-5Ff"/>
-                                    <constraint firstAttribute="bottom" secondItem="Iwb-3c-aPp" secondAttribute="bottom" constant="368.5" id="rV5-qi-3FF"/>
+                                    <constraint firstAttribute="bottom" secondItem="rLP-0w-z0i" secondAttribute="bottom" constant="269" id="k7K-rS-5Ff"/>
+                                    <constraint firstAttribute="bottom" secondItem="Iwb-3c-aPp" secondAttribute="bottom" constant="55" id="rV5-qi-3FF"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="C3s-0W-kyq" id="Cqy-tX-bev"/>
@@ -988,15 +1139,19 @@
                             <constraint firstItem="rLP-0w-z0i" firstAttribute="width" secondItem="7Yj-Yi-WbJ" secondAttribute="width" id="yIJ-md-vhR"/>
                         </constraints>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="doneButton" destination="0w2-mg-gSz" id="Dbd-4x-4dg"/>
                         <outlet property="doneButtonView" destination="GWa-R3-7SW" id="agk-4O-cnI"/>
                         <outlet property="editButtonLabel" destination="DVc-m4-zlp" id="raM-qi-aAr"/>
+                        <outlet property="editButtonPaymentLabel" destination="P31-oq-5do" id="fJO-eI-gGW"/>
                         <outlet property="generalLabel" destination="rc8-pT-abN" id="lQ1-oX-01Q"/>
                         <outlet property="generalLine" destination="Uy0-S6-emo" id="p80-gH-BAF"/>
                         <outlet property="generalView" destination="dea-Cg-U2T" id="Zph-xx-UEr"/>
+                        <outlet property="lock1" destination="6Oy-nb-SNU" id="XwB-RZ-ujz"/>
+                        <outlet property="lock2" destination="oPu-0Y-XY0" id="kBW-ti-fua"/>
+                        <outlet property="lock3" destination="JUV-4N-5jd" id="0DP-Nk-Qn2"/>
+                        <outlet property="lock4" destination="6yu-a6-6Pd" id="ORo-n2-iRi"/>
+                        <outlet property="lock5" destination="z2q-8E-Ops" id="XB6-rR-YVW"/>
                         <outlet property="lockImage" destination="AV2-XK-YBM" id="xJj-Gx-VoB"/>
                         <outlet property="paymentLabel" destination="TTj-UU-Ode" id="f2N-9m-LFL"/>
                         <outlet property="paymentLine" destination="e1l-dh-7f1" id="nIh-LT-UD7"/>
