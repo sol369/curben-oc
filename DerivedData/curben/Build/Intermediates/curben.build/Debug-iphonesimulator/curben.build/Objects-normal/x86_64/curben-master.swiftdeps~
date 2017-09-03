@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "67e8c941dc45adb7d222023f3bc36e6c"
+build_time: [557277771, 583774000]
+inputs:
+  "/Users/sol369/Downloads/curben-oc-master/curben/LoginViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/ApiManager.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/SignUpViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/OrdersHederTableViewCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/OrdersViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/OrdersModelCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/SideMenuViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/CartViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/ProfileViewController.swift": [557277769, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/PickupModelCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/ViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/HomeViewController.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/HomeTableViewCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/AppDelegate.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/PickupTableViewCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/Helper.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/OrdersTableViewCell.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/curben/Constants.swift": [557164506, 0]

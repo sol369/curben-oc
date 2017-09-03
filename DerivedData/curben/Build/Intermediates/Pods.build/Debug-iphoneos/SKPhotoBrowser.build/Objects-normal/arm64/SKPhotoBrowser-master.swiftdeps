@@ -1,0 +1,23 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5d7af7fb0f534a4455f2e1cccc99f035"
+build_time: [557590094, 737046000]
+inputs:
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKAnimator.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKButtons.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCache.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCacheable.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCaptionView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKDetectingImageView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKDetectingView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKIndicatorView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKLocalPhoto.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKMesurement.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPagingScrollView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhoto.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowserDelegate.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowserOptions.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKToolbar.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKZoomingScrollView.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/extensions/UIImage+Rotation.swift": [557164506, 0]
+  "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/extensions/UIView+Radius.swift": [557164506, 0]

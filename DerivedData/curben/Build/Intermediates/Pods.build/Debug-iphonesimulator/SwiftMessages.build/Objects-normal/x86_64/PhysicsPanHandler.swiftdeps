@@ -1,0 +1,673 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhysicsPanHandler"
+provides-nominal:
+- "C13SwiftMessages17PhysicsPanHandler"
+- "CC13SwiftMessages17PhysicsPanHandler5State"
+provides-member:
+- ["C13SwiftMessages17PhysicsPanHandler", ""]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", ""]
+- ["CSo6UIView", ""]
+- ["CSo6UIView", "angle"]
+provides-dynamic-lookup:
+- "angle"
+- "pan"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private ">"
+- !private "??"
+- "AnimationContext"
+- "Animator"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BackgroundViewable"
+- "BooleanLiteralType"
+- "CFAbsoluteTime"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CGAffineTransform"
+- "CGFloat"
+- "CGPoint"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "PhysicsPanHandler"
+- "TernaryPrecedence"
+- "UIAttachmentBehavior"
+- "UIDynamicAnimator"
+- "UIDynamicItemBehavior"
+- !private "UIOffset"
+- "UIPanGestureRecognizer"
+- "UIView"
+- !private "atan2"
+- !private "fabs"
+- !private "min"
+- !private "pow"
+- !private "sqrt"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["C13SwiftMessages16AnimationContext", "containerView"]
+- !private ["C13SwiftMessages16AnimationContext", "messageView"]
+- !private ["P13SwiftMessages17AnimationDelegate", "hide"]
+- !private ["P13SwiftMessages17AnimationDelegate", "panEnded"]
+- !private ["P13SwiftMessages17AnimationDelegate", "panStarted"]
+- !private ["P13SwiftMessages8Animator", "delegate"]
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "State"]
+- !private ["Ps9AnyObject", "UIAttachmentBehavior"]
+- !private ["Ps9AnyObject", "UIDynamicAnimator"]
+- !private ["Ps9AnyObject", "UIDynamicItemBehavior"]
+- !private ["Ps9AnyObject", "UIOffset"]
+- !private ["Ps9AnyObject", "UIPanGestureRecognizer"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addAngularVelocity"]
+- !private ["Ps9AnyObject", "addBehavior"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "addLinearVelocity"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "allowsRotation"]
+- !private ["Ps9AnyObject", "anchorPoint"]
+- !private ["Ps9AnyObject", "angle"]
+- !private ["Ps9AnyObject", "animate"]
+- !private ["Ps9AnyObject", "animator"]
+- !private ["Ps9AnyObject", "asyncAfter"]
+- !private ["Ps9AnyObject", "atan2"]
+- !private ["Ps9AnyObject", "attachmentBehavior"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "containerView"]
+- !private ["Ps9AnyObject", "convert"]
+- !private ["Ps9AnyObject", "dynamicAnimator"]
+- !private ["Ps9AnyObject", "fabs"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isOffScreen"]
+- !private ["Ps9AnyObject", "itemBehavior"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "messageView"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "pan"]
+- !private ["Ps9AnyObject", "pow"]
+- !private ["Ps9AnyObject", "removeAllBehaviors"]
+- !private ["Ps9AnyObject", "removeBehavior"]
+- !private ["Ps9AnyObject", "sqrt"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "stop"]
+- !private ["Ps9AnyObject", "time"]
+- !private ["Ps9AnyObject", "transform"]
+- !private ["Ps9AnyObject", "update"]
+- !private ["Ps9AnyObject", "velocity"]
+- ["Ps9AnyObject", ""]
+- !private ["P13SwiftMessages18BackgroundViewable", "backgroundView"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "angle"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "atan2"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "center"]
+- !private ["PSo15CALayerDelegate", "convert"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- !private ["VSC17CGAffineTransform", "a"]
+- !private ["VSC17CGAffineTransform", "b"]
+- !private ["VSC17CGAffineTransform", "identity"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "intersects"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "action"]
+- !private ["Ps7CVarArg", "addAngularVelocity"]
+- !private ["Ps7CVarArg", "addBehavior"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "addLinearVelocity"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "allowsRotation"]
+- !private ["Ps7CVarArg", "anchorPoint"]
+- !private ["Ps7CVarArg", "angle"]
+- !private ["Ps7CVarArg", "animate"]
+- !private ["Ps7CVarArg", "asyncAfter"]
+- !private ["Ps7CVarArg", "atan2"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "removeAllBehaviors"]
+- !private ["Ps7CVarArg", "removeBehavior"]
+- !private ["Ps7CVarArg", "state"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps7CVarArg", "velocity"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "now"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "addAngularVelocity"]
+- !private ["Ps28CustomDebugStringConvertible", "addBehavior"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addLinearVelocity"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsRotation"]
+- !private ["Ps28CustomDebugStringConvertible", "anchorPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "angle"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- !private ["Ps28CustomDebugStringConvertible", "asyncAfter"]
+- !private ["Ps28CustomDebugStringConvertible", "atan2"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "intersects"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllBehaviors"]
+- !private ["Ps28CustomDebugStringConvertible", "removeBehavior"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "velocity"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "intersects"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "intersects"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "action"]
+- !private ["Ps23CustomStringConvertible", "addAngularVelocity"]
+- !private ["Ps23CustomStringConvertible", "addBehavior"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addLinearVelocity"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "allowsRotation"]
+- !private ["Ps23CustomStringConvertible", "anchorPoint"]
+- !private ["Ps23CustomStringConvertible", "angle"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- !private ["Ps23CustomStringConvertible", "asyncAfter"]
+- !private ["Ps23CustomStringConvertible", "atan2"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "removeAllBehaviors"]
+- !private ["Ps23CustomStringConvertible", "removeBehavior"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "velocity"]
+- !private ["CSo14DispatchObject", "asyncAfter"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "asyncAfter"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["V8Dispatch12DispatchTime", "now"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "a"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "addAngularVelocity"]
+- !private ["Ps9Equatable", "addBehavior"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "addLinearVelocity"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "allowsRotation"]
+- !private ["Ps9Equatable", "anchorPoint"]
+- !private ["Ps9Equatable", "angle"]
+- !private ["Ps9Equatable", "animate"]
+- !private ["Ps9Equatable", "asyncAfter"]
+- !private ["Ps9Equatable", "atan2"]
+- !private ["Ps9Equatable", "b"]
+- ["Ps9Equatable", "began"]
+- !private ["Ps9Equatable", "beginFromCurrentState"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "cancelled"]
+- !private ["Ps9Equatable", "center"]
+- ["Ps9Equatable", "changed"]
+- !private ["Ps9Equatable", "convert"]
+- ["Ps9Equatable", "ended"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "identity"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intersects"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "now"]
+- !private ["Ps9Equatable", "removeAllBehaviors"]
+- !private ["Ps9Equatable", "removeBehavior"]
+- !private ["Ps9Equatable", "state"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "velocity"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps25ExpressibleByArrayLiteral", "beginFromCurrentState"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "addAngularVelocity"]
+- !private ["Ps8Hashable", "addBehavior"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "addLinearVelocity"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "allowsRotation"]
+- !private ["Ps8Hashable", "anchorPoint"]
+- !private ["Ps8Hashable", "angle"]
+- !private ["Ps8Hashable", "animate"]
+- !private ["Ps8Hashable", "asyncAfter"]
+- !private ["Ps8Hashable", "atan2"]
+- ["Ps8Hashable", "began"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "cancelled"]
+- !private ["Ps8Hashable", "center"]
+- ["Ps8Hashable", "changed"]
+- !private ["Ps8Hashable", "convert"]
+- ["Ps8Hashable", "ended"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "removeAllBehaviors"]
+- !private ["Ps8Hashable", "removeBehavior"]
+- !private ["Ps8Hashable", "state"]
+- !private ["Ps8Hashable", "transform"]
+- !private ["Ps8Hashable", "velocity"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "angle"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "atan2"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "convert"]
+- !private ["PSo8NSCoding", "transform"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "action"]
+- !private ["CSo8NSObject", "addAngularVelocity"]
+- !private ["CSo8NSObject", "addBehavior"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "addLinearVelocity"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "allowsRotation"]
+- !private ["CSo8NSObject", "anchorPoint"]
+- ["CSo8NSObject", "angle"]
+- !private ["CSo8NSObject", "animate"]
+- !private ["CSo8NSObject", "asyncAfter"]
+- !private ["CSo8NSObject", "atan2"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "convert"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "location"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "removeAllBehaviors"]
+- !private ["CSo8NSObject", "removeBehavior"]
+- !private ["CSo8NSObject", "state"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["CSo8NSObject", "velocity"]
+- !private ["PSo16NSObjectProtocol", "action"]
+- !private ["PSo16NSObjectProtocol", "addAngularVelocity"]
+- !private ["PSo16NSObjectProtocol", "addBehavior"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addLinearVelocity"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "allowsRotation"]
+- !private ["PSo16NSObjectProtocol", "anchorPoint"]
+- !private ["PSo16NSObjectProtocol", "angle"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- !private ["PSo16NSObjectProtocol", "asyncAfter"]
+- !private ["PSo16NSObjectProtocol", "atan2"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "convert"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "removeAllBehaviors"]
+- !private ["PSo16NSObjectProtocol", "removeBehavior"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "velocity"]
+- !private ["CSo9OS_object", "asyncAfter"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps9OptionSet", "beginFromCurrentState"]
+- ["C13SwiftMessages17PhysicsPanHandler", "AnimationContext"]
+- ["C13SwiftMessages17PhysicsPanHandler", "Animator"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "BackgroundViewable"]
+- ["C13SwiftMessages17PhysicsPanHandler", "CFAbsoluteTime"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "CFAbsoluteTimeGetCurrent"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "CGAffineTransform"]
+- ["C13SwiftMessages17PhysicsPanHandler", "CGFloat"]
+- ["C13SwiftMessages17PhysicsPanHandler", "CGPoint"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "DispatchQueue"]
+- ["C13SwiftMessages17PhysicsPanHandler", "State"]
+- ["C13SwiftMessages17PhysicsPanHandler", "UIAttachmentBehavior"]
+- ["C13SwiftMessages17PhysicsPanHandler", "UIDynamicAnimator"]
+- ["C13SwiftMessages17PhysicsPanHandler", "UIDynamicItemBehavior"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "UIOffset"]
+- ["C13SwiftMessages17PhysicsPanHandler", "UIPanGestureRecognizer"]
+- ["C13SwiftMessages17PhysicsPanHandler", "UIView"]
+- ["C13SwiftMessages17PhysicsPanHandler", "animator"]
+- ["C13SwiftMessages17PhysicsPanHandler", "containerView"]
+- ["C13SwiftMessages17PhysicsPanHandler", "deinit"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "fabs"]
+- ["C13SwiftMessages17PhysicsPanHandler", "init"]
+- ["C13SwiftMessages17PhysicsPanHandler", "isOffScreen"]
+- ["C13SwiftMessages17PhysicsPanHandler", "messageView"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "min"]
+- ["C13SwiftMessages17PhysicsPanHandler", "pan"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "pow"]
+- !private ["C13SwiftMessages17PhysicsPanHandler", "sqrt"]
+- ["C13SwiftMessages17PhysicsPanHandler", "state"]
+- ["Ps16RawRepresentable", "began"]
+- !private ["Ps16RawRepresentable", "beginFromCurrentState"]
+- ["Ps16RawRepresentable", "cancelled"]
+- ["Ps16RawRepresentable", "changed"]
+- ["Ps16RawRepresentable", "ended"]
+- !private ["Ps10SetAlgebra", "beginFromCurrentState"]
+- !private ["Ps12SignedNumber", "init"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "CFAbsoluteTime"]
+- !private ["CC13SwiftMessages17PhysicsPanHandler5State", "CFAbsoluteTimeGetCurrent"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "CGFloat"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "CGPoint"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "UIAttachmentBehavior"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "UIDynamicAnimator"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "UIDynamicItemBehavior"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "UIView"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "angle"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "attachmentBehavior"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "containerView"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "deinit"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "dynamicAnimator"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "init"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "itemBehavior"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "messageView"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "stop"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "time"]
+- ["CC13SwiftMessages17PhysicsPanHandler5State", "update"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "angle"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "atan2"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "convert"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "angle"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "atan2"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "convert"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "angle"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo21UIAppearanceContainer", "atan2"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "convert"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["CSo20UIAttachmentBehavior", "anchorPoint"]
+- !private ["CSo20UIAttachmentBehavior", "init"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "angle"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "atan2"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "convert"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["CSo17UIDynamicAnimator", "addBehavior"]
+- !private ["CSo17UIDynamicAnimator", "init"]
+- !private ["CSo17UIDynamicAnimator", "removeAllBehaviors"]
+- !private ["CSo17UIDynamicAnimator", "removeBehavior"]
+- !private ["CSo17UIDynamicBehavior", "action"]
+- !private ["CSo17UIDynamicBehavior", "addAngularVelocity"]
+- !private ["CSo17UIDynamicBehavior", "addLinearVelocity"]
+- !private ["CSo17UIDynamicBehavior", "allowsRotation"]
+- !private ["CSo17UIDynamicBehavior", "anchorPoint"]
+- !private ["CSo17UIDynamicBehavior", "init"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "angle"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "atan2"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "convert"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["CSo21UIDynamicItemBehavior", "action"]
+- !private ["CSo21UIDynamicItemBehavior", "addAngularVelocity"]
+- !private ["CSo21UIDynamicItemBehavior", "addLinearVelocity"]
+- !private ["CSo21UIDynamicItemBehavior", "allowsRotation"]
+- !private ["CSo21UIDynamicItemBehavior", "init"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "angle"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo18UIFocusEnvironment", "atan2"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "convert"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "angle"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "atan2"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "center"]
+- !private ["PSo11UIFocusItem", "convert"]
+- !private ["PSo11UIFocusItem", "transform"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "location"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- !private ["CSo19UIGestureRecognizer", "velocity"]
+- ["OSC24UIGestureRecognizerState", "began"]
+- ["OSC24UIGestureRecognizerState", "cancelled"]
+- ["OSC24UIGestureRecognizerState", "changed"]
+- ["OSC24UIGestureRecognizerState", "ended"]
+- !private ["VSC8UIOffset", "init"]
+- !private ["CSo22UIPanGestureRecognizer", "addTarget"]
+- !private ["CSo22UIPanGestureRecognizer", "init"]
+- !private ["CSo22UIPanGestureRecognizer", "location"]
+- !private ["CSo22UIPanGestureRecognizer", "state"]
+- !private ["CSo22UIPanGestureRecognizer", "velocity"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "angle"]
+- !private ["CSo11UIResponder", "animate"]
+- !private ["CSo11UIResponder", "atan2"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "convert"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "angle"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "atan2"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "center"]
+- !private ["PSo30UIResponderStandardEditActions", "convert"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "angle"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["PSo18UITraitEnvironment", "atan2"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "convert"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- ["CSo6UIView", "angle"]
+- !private ["CSo6UIView", "animate"]
+- !private ["CSo6UIView", "atan2"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "convert"]
+- !private ["CSo6UIView", "transform"]
+- !private ["VSC22UIViewAnimationOptions", "beginFromCurrentState"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "angle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "atan2"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convert"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "action"]
+- !private ["Ps9_Hashable", "addAngularVelocity"]
+- !private ["Ps9_Hashable", "addBehavior"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- !private ["Ps9_Hashable", "addLinearVelocity"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "allowsRotation"]
+- !private ["Ps9_Hashable", "anchorPoint"]
+- !private ["Ps9_Hashable", "angle"]
+- !private ["Ps9_Hashable", "animate"]
+- !private ["Ps9_Hashable", "asyncAfter"]
+- !private ["Ps9_Hashable", "atan2"]
+- ["Ps9_Hashable", "began"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "cancelled"]
+- !private ["Ps9_Hashable", "center"]
+- ["Ps9_Hashable", "changed"]
+- !private ["Ps9_Hashable", "convert"]
+- ["Ps9_Hashable", "ended"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "removeAllBehaviors"]
+- !private ["Ps9_Hashable", "removeBehavior"]
+- !private ["Ps9_Hashable", "state"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps9_Hashable", "velocity"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "a"]
+- !private ["Ps21_ObjectiveCBridgeable", "b"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "intersects"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "C13SwiftMessages16AnimationContext"
+- !private "P13SwiftMessages17AnimationDelegate"
+- !private "P13SwiftMessages8Animator"
+- "Ps9AnyObject"
+- !private "P13SwiftMessages18BackgroundViewable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "V8Dispatch12DispatchTime"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- !private "Ps9OptionSet"
+- "C13SwiftMessages17PhysicsPanHandler"
+- "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "Ps12SignedNumber"
+- "CC13SwiftMessages17PhysicsPanHandler5State"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo20UIAttachmentBehavior"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo17UIDynamicAnimator"
+- !private "CSo17UIDynamicBehavior"
+- !private "PSo13UIDynamicItem"
+- !private "CSo21UIDynamicItemBehavior"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo19UIGestureRecognizer"
+- "OSC24UIGestureRecognizerState"
+- !private "VSC8UIOffset"
+- !private "CSo22UIPanGestureRecognizer"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "91d5c7135f87848a3d65d1eb083500e6"
