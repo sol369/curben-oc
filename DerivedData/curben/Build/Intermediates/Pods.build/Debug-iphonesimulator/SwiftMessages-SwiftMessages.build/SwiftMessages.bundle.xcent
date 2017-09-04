@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>5LX427G4D7.org.cocoapods.SwiftMessages</string>
+	<string>9K845GE93Q.org.cocoapods.SwiftMessages</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>5LX427G4D7.org.cocoapods.SwiftMessages</string>
+		<string>9K845GE93Q.org.cocoapods.SwiftMessages</string>
 	</array>
 </dict>
 </plist>

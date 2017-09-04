@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6UIView", ""]
+- ["P11ImageViewer16DisplaceableView", ""]
+- ["CSo6UIView", "boundsCenter"]
+- ["CSo6UIView", "frame"]
+- ["CSo6UIView", "addSubviews"]
+- ["CSo6UIView", "animateWithDuration"]
+- ["CSo6UIView", "animateWithDuration"]
+- ["P11ImageViewer16DisplaceableView", "frameInCoordinatesOfScreen"]
+provides-dynamic-lookup:
+- "animateWithDuration"
+- "boundsCenter"
+- "frame"
+depends-top-level:
+- !private "/"
+- "Bool"
+- "CGPoint"
+- "CGRect"
+- "DisplaceableView"
+- "TimeInterval"
+- !private "UIApplication"
+- !private "UIScreen"
+- "UIView"
+- !private "UIViewAnimationOptions"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UIViewAnimationOptions"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "animate"]
+- !private ["Ps9AnyObject", "applicationWindow"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "convert"]
+- !private ["Ps9AnyObject", "coordinateSpace"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["PSo15CALayerDelegate", "CGPoint"]
+- !private ["PSo15CALayerDelegate", "UIApplication"]
+- !private ["PSo15CALayerDelegate", "UIView"]
+- !private ["PSo15CALayerDelegate", "UIViewAnimationOptions"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "convert"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "UIViewAnimationOptions"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "animate"]
+- !private ["Ps7CVarArg", "applicationWindow"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "coordinateSpace"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewAnimationOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinateSpace"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "UIViewAnimationOptions"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- !private ["Ps23CustomStringConvertible", "applicationWindow"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "coordinateSpace"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["P11ImageViewer16DisplaceableView", "CGRect"]
+- !private ["P11ImageViewer16DisplaceableView", "UIScreen"]
+- !private ["P11ImageViewer16DisplaceableView", "UIView"]
+- !private ["P11ImageViewer16DisplaceableView", "bounds"]
+- ["P11ImageViewer16DisplaceableView", "frameInCoordinatesOfScreen"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "UIViewAnimationOptions"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "animate"]
+- !private ["Ps9Equatable", "applicationWindow"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "coordinateSpace"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "UIViewAnimationOptions"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "animate"]
+- !private ["Ps8Hashable", "applicationWindow"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "coordinateSpace"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "UIViewAnimationOptions"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "convert"]
+- !private ["PSo8NSCoding", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "TimeInterval"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "UIViewAnimationOptions"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addSubview"]
+- ["CSo8NSObject", "addSubviews"]
+- !private ["CSo8NSObject", "animate"]
+- ["CSo8NSObject", "animateWithDuration"]
+- !private ["CSo8NSObject", "applicationWindow"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "boundsCenter"]
+- !private ["CSo8NSObject", "convert"]
+- !private ["CSo8NSObject", "coordinateSpace"]
+- ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "UIViewAnimationOptions"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- !private ["PSo16NSObjectProtocol", "applicationWindow"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "convert"]
+- !private ["PSo16NSObjectProtocol", "coordinateSpace"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "UIApplication"]
+- !private ["PSo29UIAccessibilityIdentification", "UIView"]
+- !private ["PSo29UIAccessibilityIdentification", "UIViewAnimationOptions"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "convert"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "CGPoint"]
+- !private ["PSo12UIAppearance", "UIApplication"]
+- !private ["PSo12UIAppearance", "UIView"]
+- !private ["PSo12UIAppearance", "UIViewAnimationOptions"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "convert"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "CGPoint"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "UIViewAnimationOptions"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "convert"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["CSo13UIApplication", "applicationWindow"]
+- !private ["PSo17UICoordinateSpace", "CGPoint"]
+- !private ["PSo17UICoordinateSpace", "UIApplication"]
+- !private ["PSo17UICoordinateSpace", "UIView"]
+- !private ["PSo17UICoordinateSpace", "UIViewAnimationOptions"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "convert"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "CGPoint"]
+- !private ["PSo13UIDynamicItem", "UIApplication"]
+- !private ["PSo13UIDynamicItem", "UIView"]
+- !private ["PSo13UIDynamicItem", "UIViewAnimationOptions"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "convert"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "CGPoint"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "UIViewAnimationOptions"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "convert"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo11UIFocusItem", "CGPoint"]
+- !private ["PSo11UIFocusItem", "UIApplication"]
+- !private ["PSo11UIFocusItem", "UIView"]
+- !private ["PSo11UIFocusItem", "UIViewAnimationOptions"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "convert"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "TimeInterval"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "UIViewAnimationOptions"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addSubview"]
+- ["CSo11UIResponder", "addSubviews"]
+- !private ["CSo11UIResponder", "animate"]
+- ["CSo11UIResponder", "animateWithDuration"]
+- !private ["CSo11UIResponder", "applicationWindow"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "boundsCenter"]
+- !private ["CSo11UIResponder", "convert"]
+- ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
+- !private ["PSo30UIResponderStandardEditActions", "UIViewAnimationOptions"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "applicationWindow"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "convert"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["CSo8UIScreen", "coordinateSpace"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["PSo18UITraitEnvironment", "CGPoint"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "UIViewAnimationOptions"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "convert"]
+- !private ["PSo18UITraitEnvironment", "coordinateSpace"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "TimeInterval"]
+- !private ["CSo6UIView", "UIApplication"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "UIViewAnimationOptions"]
+- ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "addSubview"]
+- ["CSo6UIView", "addSubviews"]
+- !private ["CSo6UIView", "animate"]
+- ["CSo6UIView", "animateWithDuration"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "boundsCenter"]
+- !private ["CSo6UIView", "convert"]
+- ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["VSC22UIViewAnimationOptions", "init"]
+- !private ["CSo8UIWindow", "convert"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIApplication"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIViewAnimationOptions"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convert"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "UIViewAnimationOptions"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "animate"]
+- !private ["Ps9_Hashable", "applicationWindow"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "coordinateSpace"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P11ImageViewer16DisplaceableView"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- !private "CSo8UIWindow"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/ImageViewer/ImageViewer-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphoneos/ImageViewer.build/unextended-module.modulemap"
+interface-hash: "a848a7bee0f1682f99e7357a281cde79"

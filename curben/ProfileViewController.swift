@@ -45,14 +45,29 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     @IBOutlet var doneButton: UIButton!
     @IBOutlet var doneButtonView: UIView!
     
+    //locks for payment view
+    @IBOutlet var lock1: UIImageView!
+    @IBOutlet var lock2: UIImageView!
+    @IBOutlet var lock3: UIImageView!
+    @IBOutlet var lock4: UIImageView!
+    @IBOutlet var lock5: UIImageView!
+    
+    @IBOutlet var editButtonPaymentLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         editButtonLabel.isUserInteractionEnabled = true
+        editButtonPaymentLabel.isUserInteractionEnabled = true
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ProfileViewController.editButtonPressed(_:)))
         
+        let tapGesturePayment = UITapGestureRecognizer(target: self, action: #selector(ProfileViewController.editButtonPaymentPressed(_:)))
+
+        
         editButtonLabel.addGestureRecognizer(tapGesture)
+        editButtonPaymentLabel.addGestureRecognizer(tapGesturePayment)
+
         
         startMonitoringInternet()
         // Do any additional setup after loading the view.
@@ -86,6 +101,21 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
             
         }
         
+    }
+    
+    @IBAction func editButtonPaymentPressed(_ sender: AnyObject) {
+        
+        if doneButtonView.isHidden {
+            
+            doneButtonView.isHidden = false
+            hideLocks()
+            
+        } else {
+            
+            doneButtonView.isHidden = true
+            showLocks()
+            
+        }
         
     }
     
@@ -183,7 +213,21 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
 
     
     
+    func hideLocks() {
+        lock1.isHidden = true
+        lock2.isHidden = true
+        lock3.isHidden = true
+        lock4.isHidden = true
+        lock5.isHidden = true
+    }
     
+    func showLocks() {
+        lock1.isHidden = false
+        lock2.isHidden = false
+        lock3.isHidden = false
+        lock4.isHidden = false
+        lock5.isHidden = false
+    }
     
     
     

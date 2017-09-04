@@ -1,0 +1,520 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SideMenuViewController"
+provides-nominal:
+- "C6curben22SideMenuViewController"
+provides-member:
+- ["C6curben22SideMenuViewController", ""]
+provides-dynamic-lookup:
+- "centerContainer"
+- "control"
+- "didReceiveMemoryWarning"
+- "menuCloseBtn"
+- "profileBtn"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "InternetStatusIndicable"
+- "InternetViewIndicator"
+- "MMDrawerController"
+- "SideMenuViewController"
+- "String"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UINavigationController"
+- "UIViewController"
+depends-member:
+- ["Ps9AnyObject", "MMDrawerController"]
+- !private ["Ps9AnyObject", "centerViewController"]
+- !private ["Ps9AnyObject", "closeDrawer"]
+- !private ["Ps9AnyObject", "control"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- ["Ps9AnyObject", "internetConnectionIndicator"]
+- !private ["Ps9AnyObject", "mm_drawerController"]
+- !private ["Ps9AnyObject", "parent"]
+- ["Ps9AnyObject", "startMonitoringInternet"]
+- !private ["Ps9AnyObject", "storyboard"]
+- !private ["Ps9AnyObject", "toggle"]
+- !private ["Ps9AnyObject", "viewControllers"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "MMDrawerController"]
+- !private ["Ps7CVarArg", "centerViewController"]
+- !private ["Ps7CVarArg", "closeDrawer"]
+- !private ["Ps7CVarArg", "control"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- ["Ps7CVarArg", "internetConnectionIndicator"]
+- !private ["Ps7CVarArg", "mm_drawerController"]
+- !private ["Ps7CVarArg", "parent"]
+- ["Ps7CVarArg", "startMonitoringInternet"]
+- !private ["Ps7CVarArg", "storyboard"]
+- !private ["Ps7CVarArg", "toggle"]
+- !private ["Ps7CVarArg", "viewControllers"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "MMDrawerController"]
+- !private ["Ps28CustomDebugStringConvertible", "centerViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "closeDrawer"]
+- !private ["Ps28CustomDebugStringConvertible", "control"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- ["Ps28CustomDebugStringConvertible", "internetConnectionIndicator"]
+- !private ["Ps28CustomDebugStringConvertible", "mm_drawerController"]
+- !private ["Ps28CustomDebugStringConvertible", "parent"]
+- ["Ps28CustomDebugStringConvertible", "startMonitoringInternet"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "toggle"]
+- !private ["Ps28CustomDebugStringConvertible", "viewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "MMDrawerController"]
+- !private ["Ps23CustomStringConvertible", "centerViewController"]
+- !private ["Ps23CustomStringConvertible", "closeDrawer"]
+- !private ["Ps23CustomStringConvertible", "control"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- ["Ps23CustomStringConvertible", "internetConnectionIndicator"]
+- !private ["Ps23CustomStringConvertible", "mm_drawerController"]
+- !private ["Ps23CustomStringConvertible", "parent"]
+- ["Ps23CustomStringConvertible", "startMonitoringInternet"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- !private ["Ps23CustomStringConvertible", "toggle"]
+- !private ["Ps23CustomStringConvertible", "viewControllers"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "MMDrawerController"]
+- !private ["Ps9Equatable", "centerViewController"]
+- !private ["Ps9Equatable", "closeDrawer"]
+- !private ["Ps9Equatable", "control"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- ["Ps9Equatable", "internetConnectionIndicator"]
+- !private ["Ps9Equatable", "left"]
+- !private ["Ps9Equatable", "mm_drawerController"]
+- !private ["Ps9Equatable", "parent"]
+- ["Ps9Equatable", "startMonitoringInternet"]
+- !private ["Ps9Equatable", "storyboard"]
+- !private ["Ps9Equatable", "toggle"]
+- !private ["Ps9Equatable", "viewControllers"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "MMDrawerController"]
+- !private ["Ps8Hashable", "centerViewController"]
+- !private ["Ps8Hashable", "closeDrawer"]
+- !private ["Ps8Hashable", "control"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- ["Ps8Hashable", "internetConnectionIndicator"]
+- !private ["Ps8Hashable", "left"]
+- !private ["Ps8Hashable", "mm_drawerController"]
+- !private ["Ps8Hashable", "parent"]
+- ["Ps8Hashable", "startMonitoringInternet"]
+- !private ["Ps8Hashable", "storyboard"]
+- !private ["Ps8Hashable", "toggle"]
+- !private ["Ps8Hashable", "viewControllers"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["P19EFInternetIndicator23InternetStatusIndicable", "MMDrawerController"]
+- !private ["P19EFInternetIndicator23InternetStatusIndicable", "control"]
+- ["P19EFInternetIndicator23InternetStatusIndicable", "internetConnectionIndicator"]
+- !private ["P19EFInternetIndicator23InternetStatusIndicable", "mm_drawerController"]
+- !private ["P19EFInternetIndicator23InternetStatusIndicable", "parent"]
+- ["P19EFInternetIndicator23InternetStatusIndicable", "startMonitoringInternet"]
+- !private ["P19EFInternetIndicator23InternetStatusIndicable", "storyboard"]
+- ["P19EFInternetIndicator23InternetStatusIndicable", ""]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["CSo18MMDrawerController", "centerViewController"]
+- !private ["CSo18MMDrawerController", "closeDrawer"]
+- ["CSo18MMDrawerController", "init"]
+- !private ["CSo18MMDrawerController", "toggle"]
+- !private ["OSC12MMDrawerSide", "left"]
+- !private ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "MMDrawerController"]
+- !private ["PSo8NSCoding", "centerViewController"]
+- !private ["PSo8NSCoding", "closeDrawer"]
+- !private ["PSo8NSCoding", "control"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "internetConnectionIndicator"]
+- !private ["PSo8NSCoding", "mm_drawerController"]
+- !private ["PSo8NSCoding", "parent"]
+- ["PSo8NSCoding", "startMonitoringInternet"]
+- !private ["PSo8NSCoding", "storyboard"]
+- !private ["PSo8NSCoding", "toggle"]
+- !private ["PSo8NSCoding", "viewControllers"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "MMDrawerController"]
+- !private ["PSo26NSExtensionRequestHandling", "centerViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "closeDrawer"]
+- !private ["PSo26NSExtensionRequestHandling", "control"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "internetConnectionIndicator"]
+- !private ["PSo26NSExtensionRequestHandling", "mm_drawerController"]
+- !private ["PSo26NSExtensionRequestHandling", "parent"]
+- ["PSo26NSExtensionRequestHandling", "startMonitoringInternet"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- !private ["PSo26NSExtensionRequestHandling", "toggle"]
+- !private ["PSo26NSExtensionRequestHandling", "viewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "InternetViewIndicator"]
+- ["CSo8NSObject", "MMDrawerController"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- ["CSo8NSObject", "centerContainer"]
+- !private ["CSo8NSObject", "centerViewController"]
+- !private ["CSo8NSObject", "closeDrawer"]
+- ["CSo8NSObject", "control"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- ["CSo8NSObject", "internetConnectionIndicator"]
+- ["CSo8NSObject", "menuCloseBtn"]
+- !private ["CSo8NSObject", "mm_drawerController"]
+- !private ["CSo8NSObject", "parent"]
+- ["CSo8NSObject", "profileBtn"]
+- ["CSo8NSObject", "startMonitoringInternet"]
+- !private ["CSo8NSObject", "storyboard"]
+- !private ["CSo8NSObject", "toggle"]
+- !private ["CSo8NSObject", "viewControllers"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "MMDrawerController"]
+- !private ["PSo16NSObjectProtocol", "centerViewController"]
+- !private ["PSo16NSObjectProtocol", "closeDrawer"]
+- !private ["PSo16NSObjectProtocol", "control"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- ["PSo16NSObjectProtocol", "internetConnectionIndicator"]
+- !private ["PSo16NSObjectProtocol", "mm_drawerController"]
+- !private ["PSo16NSObjectProtocol", "parent"]
+- ["PSo16NSObjectProtocol", "startMonitoringInternet"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- !private ["PSo16NSObjectProtocol", "toggle"]
+- !private ["PSo16NSObjectProtocol", "viewControllers"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "left"]
+- ["C6curben22SideMenuViewController", "Bool"]
+- ["C6curben22SideMenuViewController", "InternetViewIndicator"]
+- ["C6curben22SideMenuViewController", "MMDrawerController"]
+- ["C6curben22SideMenuViewController", "String"]
+- ["C6curben22SideMenuViewController", "UIButton"]
+- !private ["C6curben22SideMenuViewController", "UINavigationController"]
+- ["C6curben22SideMenuViewController", "centerContainer"]
+- ["C6curben22SideMenuViewController", "control"]
+- ["C6curben22SideMenuViewController", "deinit"]
+- ["C6curben22SideMenuViewController", "didReceiveMemoryWarning"]
+- ["C6curben22SideMenuViewController", "init"]
+- ["C6curben22SideMenuViewController", "internetConnectionIndicator"]
+- ["C6curben22SideMenuViewController", "menuCloseBtn"]
+- !private ["C6curben22SideMenuViewController", "mm_drawerController"]
+- !private ["C6curben22SideMenuViewController", "parent"]
+- ["C6curben22SideMenuViewController", "profileBtn"]
+- ["C6curben22SideMenuViewController", "startMonitoringInternet"]
+- !private ["C6curben22SideMenuViewController", "storyboard"]
+- ["C6curben22SideMenuViewController", "viewDidLoad"]
+- ["C6curben22SideMenuViewController", "viewWillAppear"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["PSo21UIAppearanceContainer", "MMDrawerController"]
+- !private ["PSo21UIAppearanceContainer", "centerViewController"]
+- !private ["PSo21UIAppearanceContainer", "closeDrawer"]
+- !private ["PSo21UIAppearanceContainer", "control"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "internetConnectionIndicator"]
+- !private ["PSo21UIAppearanceContainer", "mm_drawerController"]
+- !private ["PSo21UIAppearanceContainer", "parent"]
+- ["PSo21UIAppearanceContainer", "startMonitoringInternet"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- !private ["PSo21UIAppearanceContainer", "toggle"]
+- !private ["PSo21UIAppearanceContainer", "viewControllers"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "MMDrawerController"]
+- !private ["PSo18UIContentContainer", "centerViewController"]
+- !private ["PSo18UIContentContainer", "closeDrawer"]
+- !private ["PSo18UIContentContainer", "control"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "internetConnectionIndicator"]
+- !private ["PSo18UIContentContainer", "mm_drawerController"]
+- !private ["PSo18UIContentContainer", "parent"]
+- ["PSo18UIContentContainer", "startMonitoringInternet"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- !private ["PSo18UIContentContainer", "toggle"]
+- !private ["PSo18UIContentContainer", "viewControllers"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "MMDrawerController"]
+- !private ["PSo18UIFocusEnvironment", "centerViewController"]
+- !private ["PSo18UIFocusEnvironment", "closeDrawer"]
+- !private ["PSo18UIFocusEnvironment", "control"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "internetConnectionIndicator"]
+- !private ["PSo18UIFocusEnvironment", "mm_drawerController"]
+- !private ["PSo18UIFocusEnvironment", "parent"]
+- ["PSo18UIFocusEnvironment", "startMonitoringInternet"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- !private ["PSo18UIFocusEnvironment", "toggle"]
+- !private ["PSo18UIFocusEnvironment", "viewControllers"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "viewControllers"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "InternetViewIndicator"]
+- ["CSo11UIResponder", "MMDrawerController"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- ["CSo11UIResponder", "centerContainer"]
+- !private ["CSo11UIResponder", "centerViewController"]
+- !private ["CSo11UIResponder", "closeDrawer"]
+- ["CSo11UIResponder", "control"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "internetConnectionIndicator"]
+- ["CSo11UIResponder", "menuCloseBtn"]
+- !private ["CSo11UIResponder", "mm_drawerController"]
+- !private ["CSo11UIResponder", "parent"]
+- ["CSo11UIResponder", "profileBtn"]
+- ["CSo11UIResponder", "startMonitoringInternet"]
+- !private ["CSo11UIResponder", "storyboard"]
+- !private ["CSo11UIResponder", "toggle"]
+- !private ["CSo11UIResponder", "viewControllers"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["PSo30UIResponderStandardEditActions", "MMDrawerController"]
+- !private ["PSo30UIResponderStandardEditActions", "centerViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "closeDrawer"]
+- !private ["PSo30UIResponderStandardEditActions", "control"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "internetConnectionIndicator"]
+- !private ["PSo30UIResponderStandardEditActions", "mm_drawerController"]
+- !private ["PSo30UIResponderStandardEditActions", "parent"]
+- ["PSo30UIResponderStandardEditActions", "startMonitoringInternet"]
+- !private ["PSo30UIResponderStandardEditActions", "storyboard"]
+- !private ["PSo30UIResponderStandardEditActions", "toggle"]
+- !private ["PSo30UIResponderStandardEditActions", "viewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "MMDrawerController"]
+- !private ["PSo16UIStateRestoring", "centerViewController"]
+- !private ["PSo16UIStateRestoring", "closeDrawer"]
+- !private ["PSo16UIStateRestoring", "control"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "internetConnectionIndicator"]
+- !private ["PSo16UIStateRestoring", "mm_drawerController"]
+- !private ["PSo16UIStateRestoring", "parent"]
+- ["PSo16UIStateRestoring", "startMonitoringInternet"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- !private ["PSo16UIStateRestoring", "toggle"]
+- !private ["PSo16UIStateRestoring", "viewControllers"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- ["PSo18UITraitEnvironment", "MMDrawerController"]
+- !private ["PSo18UITraitEnvironment", "centerViewController"]
+- !private ["PSo18UITraitEnvironment", "closeDrawer"]
+- !private ["PSo18UITraitEnvironment", "control"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "internetConnectionIndicator"]
+- !private ["PSo18UITraitEnvironment", "mm_drawerController"]
+- !private ["PSo18UITraitEnvironment", "parent"]
+- ["PSo18UITraitEnvironment", "startMonitoringInternet"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- !private ["PSo18UITraitEnvironment", "toggle"]
+- !private ["PSo18UITraitEnvironment", "viewControllers"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "InternetViewIndicator"]
+- ["CSo16UIViewController", "MMDrawerController"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UINavigationController"]
+- ["CSo16UIViewController", "centerContainer"]
+- !private ["CSo16UIViewController", "centerViewController"]
+- !private ["CSo16UIViewController", "closeDrawer"]
+- ["CSo16UIViewController", "control"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "internetConnectionIndicator"]
+- ["CSo16UIViewController", "menuCloseBtn"]
+- !private ["CSo16UIViewController", "mm_drawerController"]
+- !private ["CSo16UIViewController", "parent"]
+- ["CSo16UIViewController", "profileBtn"]
+- ["CSo16UIViewController", "startMonitoringInternet"]
+- !private ["CSo16UIViewController", "storyboard"]
+- !private ["CSo16UIViewController", "toggle"]
+- !private ["CSo16UIViewController", "viewControllers"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "MMDrawerController"]
+- !private ["Ps9_Hashable", "centerViewController"]
+- !private ["Ps9_Hashable", "closeDrawer"]
+- !private ["Ps9_Hashable", "control"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- ["Ps9_Hashable", "internetConnectionIndicator"]
+- !private ["Ps9_Hashable", "left"]
+- !private ["Ps9_Hashable", "mm_drawerController"]
+- !private ["Ps9_Hashable", "parent"]
+- ["Ps9_Hashable", "startMonitoringInternet"]
+- !private ["Ps9_Hashable", "storyboard"]
+- !private ["Ps9_Hashable", "toggle"]
+- !private ["Ps9_Hashable", "viewControllers"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P19EFInternetIndicator23InternetStatusIndicable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps25LosslessStringConvertible"
+- "CSo18MMDrawerController"
+- !private "OSC12MMDrawerSide"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- "C6curben22SideMenuViewController"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerVisualState.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerBarButtonItem.h"
+- "/Users/sol369/Downloads/curben-oc-master/curben-BridgingHeader.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/UIViewController+MMDrawerController.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
+interface-hash: "137a90a2cbbb24fbaf380fbe8762d491"
