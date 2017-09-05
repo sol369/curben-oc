@@ -10,6 +10,9 @@ import UIKit
 
 class OrdersHederTableViewCell: UITableViewCell {
 
+    //OUTLET FROM STORYBOARD
+    @IBOutlet var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

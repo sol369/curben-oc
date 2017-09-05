@@ -8,6 +8,7 @@
 
 import UIKit
 import MMDrawerController
+import SkyFloatingLabelTextField
 
 class SignUpViewController: UIViewController ,InternetStatusIndicable{
 
@@ -15,7 +16,14 @@ class SignUpViewController: UIViewController ,InternetStatusIndicable{
     //Variables
     var internetConnectionIndicator: InternetViewIndicator?
     var centerContainer: MMDrawerController = MMDrawerController()
+    
+    
+    //OUTLETS FROM STORYBOARD
+    @IBOutlet var emailTextField: SkyFloatingLabelTextField!
+    
+    @IBOutlet var passwordTextField: SkyFloatingLabelTextField!
 
+    @IBOutlet var confirmPasswordTextField: SkyFloatingLabelTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
