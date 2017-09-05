@@ -8,6 +8,7 @@
 
 import UIKit
 import MMDrawerController
+import SkyFloatingLabelTextField
 
 class LoginViewController: UIViewController ,InternetStatusIndicable{
 
@@ -15,6 +16,11 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
     var internetConnectionIndicator: InternetViewIndicator?
     var centerContainer: MMDrawerController = MMDrawerController()
     
+    
+    //OUTLETS FROM STORYBOARD
+    @IBOutlet var emailTextField: SkyFloatingLabelTextField!
+    
+    @IBOutlet var passwordTextField: SkyFloatingLabelTextField!
     
     
     

@@ -10,6 +10,12 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
+    //OUTLETS FROM STORYBOARD
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var distanceLabel: UILabel!
+    @IBOutlet var cartButton: UIButton!
+    @IBOutlet var priceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

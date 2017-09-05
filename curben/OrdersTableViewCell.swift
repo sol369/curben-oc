@@ -18,6 +18,9 @@ class OrdersTableViewCell: UITableViewCell {
     
     @IBOutlet var dot: UIView!
     
+    @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var itemCountLabel: UILabel!
+    @IBOutlet var itemLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
