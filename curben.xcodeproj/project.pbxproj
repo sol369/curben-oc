@@ -599,7 +599,7 @@
 				TargetAttributes = {
 					1C5EA66F1F4844DC007F447C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 96Q26UST5X;
+						DevelopmentTeam = J5B623WV47;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -1097,11 +1097,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 96Q26UST5X;
+				DEVELOPMENT_TEAM = J5B623WV47;
 				INFOPLIST_FILE = curben/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.soloinc.curben;
+				PRODUCT_BUNDLE_IDENTIFIER = com.curben.curben;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1119,11 +1119,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 96Q26UST5X;
+				DEVELOPMENT_TEAM = J5B623WV47;
 				INFOPLIST_FILE = curben/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.soloinc.curben;
+				PRODUCT_BUNDLE_IDENTIFIER = com.curben.curben;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
