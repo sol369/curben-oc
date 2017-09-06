@@ -7,10 +7,12 @@ provides-member:
 - ["C6curben24OrdersHederTableViewCell", ""]
 provides-dynamic-lookup:
 - "awakeFromNib"
+- "dateLabel"
 - "setSelected"
 depends-top-level:
 - "Bool"
 - "OrdersHederTableViewCell"
+- "UILabel"
 - "UITableViewCell"
 depends-member:
 - !private ["Ps9AnyObject", "awakeFromNib"]
@@ -46,7 +48,9 @@ depends-member:
 - !private ["PSo8NSCoding", "setSelected"]
 - ["PSo8NSCoding", ""]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "dateLabel"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "setSelected"]
 - !private ["PSo16NSObjectProtocol", "awakeFromNib"]
@@ -54,7 +58,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setSelected"]
 - ["PSo16NSObjectProtocol", ""]
 - ["C6curben24OrdersHederTableViewCell", "Bool"]
+- ["C6curben24OrdersHederTableViewCell", "UILabel"]
 - ["C6curben24OrdersHederTableViewCell", "awakeFromNib"]
+- ["C6curben24OrdersHederTableViewCell", "dateLabel"]
 - ["C6curben24OrdersHederTableViewCell", "deinit"]
 - ["C6curben24OrdersHederTableViewCell", "init"]
 - ["C6curben24OrdersHederTableViewCell", "setSelected"]
@@ -91,7 +97,9 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "dateLabel"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "setSelected"]
 - !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
@@ -99,7 +107,9 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "setSelected"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UILabel"]
 - ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "dateLabel"]
 - ["CSo15UITableViewCell", "init"]
 - ["CSo15UITableViewCell", "setSelected"]
 - ["CSo15UITableViewCell", ""]
@@ -108,7 +118,9 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "setSelected"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UILabel"]
 - ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "dateLabel"]
 - ["CSo6UIView", "init"]
 - ["CSo6UIView", "setSelected"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
@@ -155,6 +167,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule"
@@ -172,6 +185,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
@@ -186,6 +200,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
@@ -193,6 +208,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
@@ -200,4 +216,4 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
-interface-hash: "d212d3ae6e2265889003ec00a74cea48"
+interface-hash: "3737c6a745e9e07944b8f9f225c04376"

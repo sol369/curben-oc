@@ -166,6 +166,7 @@ SWIFT_CLASS("_TtC6curben11AppDelegate")
 @class UIScrollView;
 @class UITableView;
 @class UIView;
+@class UILabel;
 @class UIPageControl;
 @class UIBarButtonItem;
 @class UIButton;
@@ -179,6 +180,10 @@ SWIFT_CLASS("_TtC6curben18CartViewController")
 @property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified tablePickup;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified pickupFooterView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified viewForScrollView;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified appFeeLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified subTotalLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified dueNowLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified cashAtPickupLabel;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull dataArray0;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull dataArray1;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull scrollLabels;
@@ -192,6 +197,7 @@ SWIFT_CLASS("_TtC6curben18CartViewController")
 - (void)configurePageControl;
 - (void)changePageWithSender:(id _Nonnull)sender;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (IBAction)confirmOrderButton:(id _Nonnull)sender;
 - (IBAction)minusBtn:(UIButton * _Nonnull)sender;
 - (IBAction)plusBtn:(UIButton * _Nonnull)sender;
 - (void)firstButtonWithSender:(id _Nonnull)sender;
@@ -227,6 +233,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Helper * _No
 
 SWIFT_CLASS("_TtC6curben17HomeTableViewCell")
 @interface HomeTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified distanceLabel;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified cartButton;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified priceLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -251,10 +261,13 @@ SWIFT_CLASS("_TtC6curben18HomeViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class SkyFloatingLabelTextField;
 
 SWIFT_CLASS("_TtC6curben19LoginViewController")
 @interface LoginViewController : UIViewController
 @property (nonatomic, strong) MMDrawerController * _Nonnull centerContainer;
+@property (nonatomic, strong) IBOutlet SkyFloatingLabelTextField * _Null_unspecified emailTextField;
+@property (nonatomic, strong) IBOutlet SkyFloatingLabelTextField * _Null_unspecified passwordTextField;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)loginBtn:(UIButton * _Nonnull)sender;
@@ -272,6 +285,7 @@ SWIFT_CLASS("_TtC6curben19LoginViewController")
 
 SWIFT_CLASS("_TtC6curben24OrdersHederTableViewCell")
 @interface OrdersHederTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified dateLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -297,6 +311,9 @@ SWIFT_CLASS("_TtC6curben19OrdersTableViewCell")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified dotLineTopCons;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified dotLineBottomCons;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified dot;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified timeLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified itemCountLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified itemLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -335,7 +352,6 @@ SWIFT_CLASS("_TtC6curben15PickupModelCell")
 @end
 
 @class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC6curben19PickupTableViewCell")
 @interface PickupTableViewCell : UITableViewCell
@@ -412,6 +428,9 @@ SWIFT_CLASS("_TtC6curben22SideMenuViewController")
 SWIFT_CLASS("_TtC6curben20SignUpViewController")
 @interface SignUpViewController : UIViewController
 @property (nonatomic, strong) MMDrawerController * _Nonnull centerContainer;
+@property (nonatomic, strong) IBOutlet SkyFloatingLabelTextField * _Null_unspecified emailTextField;
+@property (nonatomic, strong) IBOutlet SkyFloatingLabelTextField * _Null_unspecified passwordTextField;
+@property (nonatomic, strong) IBOutlet SkyFloatingLabelTextField * _Null_unspecified confirmPasswordTextField;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)signUpBtn:(UIButton * _Nonnull)sender;

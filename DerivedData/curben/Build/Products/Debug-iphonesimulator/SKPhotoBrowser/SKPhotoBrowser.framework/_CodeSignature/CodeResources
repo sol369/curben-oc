@@ -20,13 +20,13 @@
 		<data>
 		ntAm3Aj98sem3jzRKazZsBvYOs8=
 		</data>
-		<key>Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SKPhotoBrowser.swiftmodule/i386.swiftdoc</key>
 		<data>
-		n06NfMXq9gyX4trBWSxh9C4U9ic=
+		oh1TLkwiJ/x5jm+kjKqbxqQpfnQ=
 		</data>
-		<key>Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SKPhotoBrowser.swiftmodule/i386.swiftmodule</key>
 		<data>
-		uPkauaQXiQEt/TbfKTmAayOGjME=
+		/UyJk3cnz2hzMChof4xVuWcLrPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,26 +116,26 @@
 			xFY0i5HvpRgvAU9FwX9d0rialoUnZ3u2GCGA+OHwow0=
 			</data>
 		</dict>
-		<key>Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SKPhotoBrowser.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n06NfMXq9gyX4trBWSxh9C4U9ic=
+			oh1TLkwiJ/x5jm+kjKqbxqQpfnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yhxQKmOaqX+W89x6USehto7Uq9I/xafjq9Esib9+ZO4=
+			CqirNRPySlmFwne064drTWzZYf6Bju3wo0nSHfbIngw=
 			</data>
 		</dict>
-		<key>Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SKPhotoBrowser.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uPkauaQXiQEt/TbfKTmAayOGjME=
+			/UyJk3cnz2hzMChof4xVuWcLrPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZFax11vvHC2m1PAfj5U10EpSbBomL1iw6aP4Mcinms=
+			JC2oOVJ2WTn2Oy3peSALL3guPDyQpj5kB430nL42RJ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

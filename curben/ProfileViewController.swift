@@ -8,14 +8,10 @@
 
 import UIKit
 import MMDrawerController
-class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetStatusIndicable{
 
-    
-    
-    
+class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetStatusIndicable {
+
     //Variables
-    
-
     var internetConnectionIndicator: InternetViewIndicator?
     var centerContainer: MMDrawerController = MMDrawerController()
 
@@ -23,7 +19,6 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     var grayColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1.0)
     
     //MARK: Outlets
-    
     @IBOutlet var generalLabel: UILabel!
     
     @IBOutlet var generalView: UIView!
@@ -34,11 +29,9 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     
     @IBOutlet var scrollView: UIScrollView!
     
-    
     @IBOutlet var generalLine: UIView!
     
     @IBOutlet var paymentLine: UIView!
-    
     
     @IBOutlet var editButtonLabel: UILabel!
     @IBOutlet var lockImage: UIImageView!
@@ -67,6 +60,11 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         
         editButtonLabel.addGestureRecognizer(tapGesture)
         editButtonPaymentLabel.addGestureRecognizer(tapGesturePayment)
+        
+        let size = CGSize(width: self.view.frame.width * 2, height: self.view.frame.height)
+        
+        scrollView.contentSize = size
+        
 
         
         startMonitoringInternet()
@@ -138,11 +136,9 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
      
         generalLabel.textColor = appColor
         generalLine.backgroundColor = appColor
-        //generalView.backgroundColor = UIColor.white
         
         paymentLabel.textColor = UIColor.white
         paymentLine.backgroundColor = UIColor.clear
-        //paymentView.backgroundColor = grayColor
         
         scrollLeft()
     }
@@ -153,11 +149,9 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         
         generalLabel.textColor = UIColor.white
         generalLine.backgroundColor = UIColor.clear
-        //generalView.backgroundColor = grayColor
         
         paymentLabel.textColor = appColor
         paymentLine.backgroundColor = appColor
-        //paymentView.backgroundColor = UIColor.white
         
         scrollRight()
     }
@@ -183,27 +177,30 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
         if scrollView == self.scrollView {
             
             //scrolling left
             if  scrollView.contentOffset == CGPoint(x:0,y:0){
                 
-                //generalLabel.textColor = appColor
-                //generalView.backgroundColor = UIColor.white
                 
-                //paymentLabel.textColor = UIColor.white
-                //paymentView.backgroundColor = grayColor
+                generalLabel.textColor = appColor
+                generalLine.backgroundColor = appColor
+                
+                paymentLabel.textColor = UIColor.white
+                paymentLine.backgroundColor = UIColor.clear
                 
             }
             
             //scrolling right
             if scrollView.contentOffset == CGPoint(x:self.scrollView.frame.size.width,y:0){
+
                 
-                //generalLabel.textColor = UIColor.white
-                //generalView.backgroundColor = grayColor
+                generalLabel.textColor = UIColor.white
+                generalLine.backgroundColor = UIColor.clear
                 
-                //paymentLabel.textColor = appColor
-                //paymentView.backgroundColor = UIColor.white
+                paymentLabel.textColor = appColor
+                paymentLine.backgroundColor = appColor
                 
                 
             }

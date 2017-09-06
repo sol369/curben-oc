@@ -16,13 +16,13 @@
 		<data>
 		aqyyvl6EVIBIxaJfiSKjtzEt3hY=
 		</data>
-		<key>Modules/ImageViewer.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ImageViewer.swiftmodule/i386.swiftdoc</key>
 		<data>
-		8j8mutwDQfzHwZxsB3gOQ8FKkzM=
+		Z+cVhAobFww1lZQTpIdZTAz/2e0=
 		</data>
-		<key>Modules/ImageViewer.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ImageViewer.swiftmodule/i386.swiftmodule</key>
 		<data>
-		rNO8nbUDObJefKfeHvv3fibvlwM=
+		zkIDN0ameCR8xOBT5DbiNmPDJkY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			QrZ4VWM36gQnIr9qPAvOFI5gnbX2LcS3a0Z3+xfPV+I=
 			</data>
 		</dict>
-		<key>Modules/ImageViewer.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ImageViewer.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8j8mutwDQfzHwZxsB3gOQ8FKkzM=
+			Z+cVhAobFww1lZQTpIdZTAz/2e0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bnOJWH0UNHFVvmbfGYPhYABoDxXQrLgXF1eWs7nZ4Mw=
+			fq/de08h0HRegl98gsXKRGsWLbdKPwuxYVR75KMXeVc=
 			</data>
 		</dict>
-		<key>Modules/ImageViewer.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ImageViewer.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rNO8nbUDObJefKfeHvv3fibvlwM=
+			zkIDN0ameCR8xOBT5DbiNmPDJkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sLAZ7FfVB+w68R6N40zLfoQ/b3ECfW+eUZxJ3kaZzXg=
+			hMyVWSBW0JFS5/4mc4yBrO1iaSN/T1UOGwv1YY+DsoY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
