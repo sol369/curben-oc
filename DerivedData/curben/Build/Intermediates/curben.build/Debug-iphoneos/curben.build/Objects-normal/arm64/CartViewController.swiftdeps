@@ -2155,7 +2155,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewForZoomingInScrollView"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo12UIScrollView", "addSubview"]
-- !private ["CSo12UIScrollView", "center"]
 - !private ["CSo12UIScrollView", "contentOffset"]
 - !private ["CSo12UIScrollView", "contentSize"]
 - !private ["CSo12UIScrollView", "dataSource"]

@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "d9eedbb0f7be2a0d6141816bd21d0abb"
-build_time: [557977863, 810171000]
-inputs:
-  "/Users/sol369/Downloads/curben-oc-master/Pods/EFInternetIndicator/EFInternetIndicator/Classes/InternetStatusIndicable.swift": [557164506, 0]
-  "/Users/sol369/Downloads/curben-oc-master/Pods/EFInternetIndicator/EFInternetIndicator/Classes/InternetViewIndicator.swift": [557164506, 0]
