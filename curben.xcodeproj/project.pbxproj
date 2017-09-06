@@ -53,6 +53,8 @@
 		E2D5BF9F1F5320F00043CE43 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF911F5320F00043CE43 /* UIView+WebCacheOperation.m */; };
 		FC5D6D461F5342AD00251C2D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; };
 		FC5D6D471F5342AD00251C2D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCB0F5981F60446E00484155 /* DirectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F5971F60446E00484155 /* DirectionTableViewCell.swift */; };
+		FCB0F5A71F6044A100484155 /* PickupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F5A61F6044A100484155 /* PickupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -333,6 +335,8 @@
 		E2D5BF8F1F5320F00043CE43 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		E2D5BF901F5320F00043CE43 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		E2D5BF911F5320F00043CE43 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		FCB0F5971F60446E00484155 /* DirectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionTableViewCell.swift; sourceTree = "<group>"; };
+		FCB0F5A61F6044A100484155 /* PickupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +420,7 @@
 				1CBB83B01F4C603F00A13ED1 /* OrdersTableViewCell.swift */,
 				1CBB83B41F4C64FA00A13ED1 /* OrdersHederTableViewCell.swift */,
 				1CBB83AC1F4C5E7E00A13ED1 /* PickupTableViewCell.swift */,
+				FCB0F5971F60446E00484155 /* DirectionTableViewCell.swift */,
 			);
 			name = "TableView Cells";
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				1CBB83B21F4C604B00A13ED1 /* OrdersViewController.swift */,
 				1CBB83A81F4C5DD100A13ED1 /* CartViewController.swift */,
 				1C8454361F516EE100AFCA21 /* ProfileViewController.swift */,
+				FCB0F5A61F6044A100484155 /* PickupViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -920,6 +926,7 @@
 				1C7E21BD1F4EFAF300DFD813 /* SideMenuViewController.swift in Sources */,
 				1CBB83A91F4C5DD100A13ED1 /* CartViewController.swift in Sources */,
 				1C8454371F516EE100AFCA21 /* ProfileViewController.swift in Sources */,
+				FCB0F5A71F6044A100484155 /* PickupViewController.swift in Sources */,
 				E2D5BF9B1F5320F00043CE43 /* UIImage+GIF.m in Sources */,
 				E2D5BF921F5320F00043CE43 /* NSData+ImageContentType.m in Sources */,
 				E2D5BF941F5320F00043CE43 /* SDWebImageCompat.m in Sources */,
@@ -932,6 +939,7 @@
 				E2D5BF9C1F5320F00043CE43 /* UIImage+MultiFormat.m in Sources */,
 				E2D5BF9A1F5320F00043CE43 /* UIButton+WebCache.m in Sources */,
 				1C5EA6741F4844DC007F447C /* AppDelegate.swift in Sources */,
+				FCB0F5981F60446E00484155 /* DirectionTableViewCell.swift in Sources */,
 				1CBB83AD1F4C5E7E00A13ED1 /* PickupTableViewCell.swift in Sources */,
 				E2D5BF971F5320F00043CE43 /* SDWebImageDownloaderOperation.m in Sources */,
 				1CC6C22C1F4847EE00FE3545 /* Helper.swift in Sources */,

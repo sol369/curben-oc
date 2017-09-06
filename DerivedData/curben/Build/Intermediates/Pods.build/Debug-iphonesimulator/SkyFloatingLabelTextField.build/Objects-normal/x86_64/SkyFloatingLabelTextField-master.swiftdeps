@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "43e4bf770467f67b12b79398eba8e1e7"
-build_time: [557172674, 367941000]
-inputs:
-  "/Users/sol369/Downloads/curben-oc-master/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [557164506, 0]
-  "/Users/sol369/Downloads/curben-oc-master/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [557164506, 0]
-  "/Users/sol369/Downloads/curben-oc-master/Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift": [557164506, 0]
