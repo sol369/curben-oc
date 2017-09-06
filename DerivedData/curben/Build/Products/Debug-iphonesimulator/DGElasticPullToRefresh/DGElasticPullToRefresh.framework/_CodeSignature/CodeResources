@@ -16,13 +16,13 @@
 		<data>
 		6/tQdTe0R96wBUP4r6gPtd4hHaQ=
 		</data>
-		<key>Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/DGElasticPullToRefresh.swiftmodule/i386.swiftdoc</key>
 		<data>
-		C3Z+w4uXQ6QHlM+jB3a2A13pQ9M=
+		ejJ+04duMyRBiULdKZ6fYBGkyQ8=
 		</data>
-		<key>Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/DGElasticPullToRefresh.swiftmodule/i386.swiftmodule</key>
 		<data>
-		jAUYBxIArLF3XUY+u8YFQEP+C4o=
+		Cqeb0Q72yWmdJzQiBcaD/ZkvmzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			Vi1QxGpitKbh4AfDsNPaVtTTbKNlFWLZKtpcMmC+ZOw=
 			</data>
 		</dict>
-		<key>Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/DGElasticPullToRefresh.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C3Z+w4uXQ6QHlM+jB3a2A13pQ9M=
+			ejJ+04duMyRBiULdKZ6fYBGkyQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aW4tqgOiSrXUu4CdBu6RD6c3faI1gp77ZjoL0tBb2nI=
+			KeU4nsOvhUNoeHcQSrjq+6KQa9o6FtvXQvgxPjA4vu4=
 			</data>
 		</dict>
-		<key>Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/DGElasticPullToRefresh.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jAUYBxIArLF3XUY+u8YFQEP+C4o=
+			Cqeb0Q72yWmdJzQiBcaD/ZkvmzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vqC1LwrVW//YsD7vUSJfXc147APfv5bareSCTqgcPaU=
+			9bU9f+PwPgfnJw8mJHwIUKwws6VlzZTQNXvwWCdlZWs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

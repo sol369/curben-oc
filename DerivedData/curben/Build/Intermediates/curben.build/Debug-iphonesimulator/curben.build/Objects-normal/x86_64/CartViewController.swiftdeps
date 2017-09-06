@@ -6,11 +6,15 @@ provides-nominal:
 provides-member:
 - ["C6curben18CartViewController", ""]
 provides-dynamic-lookup:
+- "appFeeLabel"
+- "cashAtPickupLabel"
 - "changePage"
 - "configurePageControl"
+- "confirmOrderButton"
 - "dataArray0"
 - "dataArray1"
 - "didReceiveMemoryWarning"
+- "dueNowLabel"
 - "fifthButton"
 - "firstButton"
 - "fourthButton"
@@ -26,6 +30,7 @@ provides-dynamic-lookup:
 - "secondButton"
 - "setupCustomScrollView"
 - "setupFrames"
+- "subTotalLabel"
 - "tablePickup"
 - "tableView"
 - "thirdButton"
@@ -62,7 +67,7 @@ depends-top-level:
 - !private "UIColor"
 - !private "UIControlEvents"
 - !private "UIImage"
-- !private "UILabel"
+- "UILabel"
 - "UIPageControl"
 - "UIScrollView"
 - "UIScrollViewDelegate"
@@ -361,19 +366,23 @@ depends-member:
 - !private ["C6curben18CartViewController", "UIColor"]
 - !private ["C6curben18CartViewController", "UIControlEvents"]
 - !private ["C6curben18CartViewController", "UIImage"]
-- !private ["C6curben18CartViewController", "UILabel"]
+- ["C6curben18CartViewController", "UILabel"]
 - ["C6curben18CartViewController", "UIPageControl"]
 - ["C6curben18CartViewController", "UIScrollView"]
 - ["C6curben18CartViewController", "UITableView"]
 - ["C6curben18CartViewController", "UITableViewCell"]
 - ["C6curben18CartViewController", "UIView"]
 - !private ["C6curben18CartViewController", "appColor"]
+- ["C6curben18CartViewController", "appFeeLabel"]
+- ["C6curben18CartViewController", "cashAtPickupLabel"]
 - ["C6curben18CartViewController", "changePage"]
 - ["C6curben18CartViewController", "configurePageControl"]
+- ["C6curben18CartViewController", "confirmOrderButton"]
 - ["C6curben18CartViewController", "dataArray0"]
 - ["C6curben18CartViewController", "dataArray1"]
 - ["C6curben18CartViewController", "deinit"]
 - ["C6curben18CartViewController", "didReceiveMemoryWarning"]
+- ["C6curben18CartViewController", "dueNowLabel"]
 - ["C6curben18CartViewController", "fifthButton"]
 - ["C6curben18CartViewController", "firstButton"]
 - ["C6curben18CartViewController", "fourthButton"]
@@ -413,6 +422,7 @@ depends-member:
 - ["C6curben18CartViewController", "setupCustomScrollView"]
 - ["C6curben18CartViewController", "setupFrames"]
 - ["C6curben18CartViewController", "startMonitoringInternet"]
+- ["C6curben18CartViewController", "subTotalLabel"]
 - ["C6curben18CartViewController", "tablePickup"]
 - ["C6curben18CartViewController", "tableView"]
 - ["C6curben18CartViewController", "thirdButton"]
@@ -1178,7 +1188,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIControlEvents"]
 - !private ["CSo8NSObject", "UIImage"]
-- !private ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIPageControl"]
 - ["CSo8NSObject", "UIScrollView"]
 - ["CSo8NSObject", "UITableView"]
@@ -1187,12 +1197,15 @@ depends-member:
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
 - !private ["CSo8NSObject", "appColor"]
+- ["CSo8NSObject", "appFeeLabel"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "black"]
+- ["CSo8NSObject", "cashAtPickupLabel"]
 - !private ["CSo8NSObject", "center"]
 - ["CSo8NSObject", "changePage"]
 - !private ["CSo8NSObject", "clear"]
 - ["CSo8NSObject", "configurePageControl"]
+- ["CSo8NSObject", "confirmOrderButton"]
 - !private ["CSo8NSObject", "contentOffset"]
 - !private ["CSo8NSObject", "contentSize"]
 - !private ["CSo8NSObject", "currentPage"]
@@ -1203,6 +1216,7 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "dequeueReusableCell"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "dueNowLabel"]
 - ["CSo8NSObject", "fifthButton"]
 - ["CSo8NSObject", "firstButton"]
 - ["CSo8NSObject", "fourthButton"]
@@ -1262,6 +1276,7 @@ depends-member:
 - ["CSo8NSObject", "setupFrames"]
 - !private ["CSo8NSObject", "showsHorizontalScrollIndicator"]
 - ["CSo8NSObject", "startMonitoringInternet"]
+- ["CSo8NSObject", "subTotalLabel"]
 - ["CSo8NSObject", "tablePickup"]
 - ["CSo8NSObject", "tableView"]
 - !private ["CSo8NSObject", "tag"]
@@ -1941,7 +1956,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - !private ["CSo11UIResponder", "UIImage"]
-- !private ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIPageControl"]
 - ["CSo11UIResponder", "UIScrollView"]
 - ["CSo11UIResponder", "UITableView"]
@@ -1950,10 +1965,13 @@ depends-member:
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "addTarget"]
 - !private ["CSo11UIResponder", "appColor"]
+- ["CSo11UIResponder", "appFeeLabel"]
 - !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "cashAtPickupLabel"]
 - !private ["CSo11UIResponder", "center"]
 - ["CSo11UIResponder", "changePage"]
 - ["CSo11UIResponder", "configurePageControl"]
+- ["CSo11UIResponder", "confirmOrderButton"]
 - !private ["CSo11UIResponder", "contentOffset"]
 - !private ["CSo11UIResponder", "contentSize"]
 - !private ["CSo11UIResponder", "currentPage"]
@@ -1964,6 +1982,7 @@ depends-member:
 - !private ["CSo11UIResponder", "delegate"]
 - !private ["CSo11UIResponder", "dequeueReusableCell"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "dueNowLabel"]
 - ["CSo11UIResponder", "fifthButton"]
 - ["CSo11UIResponder", "firstButton"]
 - ["CSo11UIResponder", "fourthButton"]
@@ -2021,6 +2040,7 @@ depends-member:
 - ["CSo11UIResponder", "setupFrames"]
 - !private ["CSo11UIResponder", "showsHorizontalScrollIndicator"]
 - ["CSo11UIResponder", "startMonitoringInternet"]
+- ["CSo11UIResponder", "subTotalLabel"]
 - ["CSo11UIResponder", "tablePickup"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "tag"]
@@ -2135,7 +2155,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewForZoomingInScrollView"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo12UIScrollView", "addSubview"]
-- !private ["CSo12UIScrollView", "center"]
 - !private ["CSo12UIScrollView", "contentOffset"]
 - !private ["CSo12UIScrollView", "contentSize"]
 - !private ["CSo12UIScrollView", "dataSource"]
@@ -2572,18 +2591,22 @@ depends-member:
 - !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - !private ["CSo16UIViewController", "UIImage"]
-- !private ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UIPageControl"]
 - ["CSo16UIViewController", "UIScrollView"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
 - ["CSo16UIViewController", "UIView"]
 - !private ["CSo16UIViewController", "appColor"]
+- ["CSo16UIViewController", "appFeeLabel"]
+- ["CSo16UIViewController", "cashAtPickupLabel"]
 - ["CSo16UIViewController", "changePage"]
 - ["CSo16UIViewController", "configurePageControl"]
+- ["CSo16UIViewController", "confirmOrderButton"]
 - ["CSo16UIViewController", "dataArray0"]
 - ["CSo16UIViewController", "dataArray1"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "dueNowLabel"]
 - ["CSo16UIViewController", "fifthButton"]
 - ["CSo16UIViewController", "firstButton"]
 - ["CSo16UIViewController", "fourthButton"]
@@ -2623,6 +2646,7 @@ depends-member:
 - ["CSo16UIViewController", "setupCustomScrollView"]
 - ["CSo16UIViewController", "setupFrames"]
 - ["CSo16UIViewController", "startMonitoringInternet"]
+- ["CSo16UIViewController", "subTotalLabel"]
 - ["CSo16UIViewController", "tablePickup"]
 - ["CSo16UIViewController", "tableView"]
 - ["CSo16UIViewController", "thirdButton"]
@@ -2965,6 +2989,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule"
@@ -2982,6 +3007,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
@@ -2996,6 +3022,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
@@ -3003,6 +3030,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
@@ -3010,4 +3038,4 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
-interface-hash: "71a8557e103c8d7f6a537ffc429c1175"
+interface-hash: "8cf30bec1d0932f089c9e3e3dd4b874b"

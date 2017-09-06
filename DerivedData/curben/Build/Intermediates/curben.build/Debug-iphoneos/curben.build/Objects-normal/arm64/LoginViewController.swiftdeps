@@ -8,8 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 - "centerContainer"
 - "didReceiveMemoryWarning"
+- "emailTextField"
 - "home"
 - "loginBtn"
+- "passwordTextField"
 - "signUpBtn"
 - "viewDidLoad"
 depends-top-level:
@@ -26,6 +28,7 @@ depends-top-level:
 - !private "MMOpenDrawerGestureMode"
 - !private "SideMenuViewController"
 - !private "SignUpViewController"
+- "SkyFloatingLabelTextField"
 - !private "StringLiteralType"
 - !private "UIApplication"
 - "UIButton"
@@ -255,6 +258,7 @@ depends-member:
 - !private ["C6curben19LoginViewController", "MMOpenDrawerGestureMode"]
 - !private ["C6curben19LoginViewController", "SideMenuViewController"]
 - !private ["C6curben19LoginViewController", "SignUpViewController"]
+- ["C6curben19LoginViewController", "SkyFloatingLabelTextField"]
 - !private ["C6curben19LoginViewController", "UIApplication"]
 - ["C6curben19LoginViewController", "UIButton"]
 - !private ["C6curben19LoginViewController", "UINavigationController"]
@@ -262,11 +266,13 @@ depends-member:
 - ["C6curben19LoginViewController", "centerContainer"]
 - ["C6curben19LoginViewController", "deinit"]
 - ["C6curben19LoginViewController", "didReceiveMemoryWarning"]
+- ["C6curben19LoginViewController", "emailTextField"]
 - ["C6curben19LoginViewController", "home"]
 - ["C6curben19LoginViewController", "init"]
 - ["C6curben19LoginViewController", "internetConnectionIndicator"]
 - ["C6curben19LoginViewController", "loginBtn"]
 - !private ["C6curben19LoginViewController", "navigationController"]
+- ["C6curben19LoginViewController", "passwordTextField"]
 - ["C6curben19LoginViewController", "signUpBtn"]
 - ["C6curben19LoginViewController", "startMonitoringInternet"]
 - !private ["C6curben19LoginViewController", "storyboard"]
@@ -340,6 +346,7 @@ depends-member:
 - !private ["CSo8NSObject", "MMOpenDrawerGestureMode"]
 - !private ["CSo8NSObject", "SideMenuViewController"]
 - !private ["CSo8NSObject", "SignUpViewController"]
+- ["CSo8NSObject", "SkyFloatingLabelTextField"]
 - !private ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIButton"]
 - !private ["CSo8NSObject", "UINavigationController"]
@@ -348,6 +355,7 @@ depends-member:
 - !private ["CSo8NSObject", "closeDrawerGestureModeMask"]
 - !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "emailTextField"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "home"]
 - ["CSo8NSObject", "init"]
@@ -358,6 +366,7 @@ depends-member:
 - !private ["CSo8NSObject", "maximumLeftDrawerWidth"]
 - !private ["CSo8NSObject", "navigationController"]
 - !private ["CSo8NSObject", "openDrawerGestureModeMask"]
+- ["CSo8NSObject", "passwordTextField"]
 - !private ["CSo8NSObject", "pushViewController"]
 - !private ["CSo8NSObject", "rootViewController"]
 - !private ["CSo8NSObject", "shared"]
@@ -507,6 +516,7 @@ depends-member:
 - !private ["CSo11UIResponder", "MMOpenDrawerGestureMode"]
 - !private ["CSo11UIResponder", "SideMenuViewController"]
 - !private ["CSo11UIResponder", "SignUpViewController"]
+- ["CSo11UIResponder", "SkyFloatingLabelTextField"]
 - !private ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIButton"]
 - !private ["CSo11UIResponder", "UINavigationController"]
@@ -515,6 +525,7 @@ depends-member:
 - !private ["CSo11UIResponder", "closeDrawerGestureModeMask"]
 - !private ["CSo11UIResponder", "delegate"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "emailTextField"]
 - !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "home"]
 - ["CSo11UIResponder", "init"]
@@ -524,6 +535,7 @@ depends-member:
 - !private ["CSo11UIResponder", "maximumLeftDrawerWidth"]
 - !private ["CSo11UIResponder", "navigationController"]
 - !private ["CSo11UIResponder", "openDrawerGestureModeMask"]
+- ["CSo11UIResponder", "passwordTextField"]
 - !private ["CSo11UIResponder", "pushViewController"]
 - !private ["CSo11UIResponder", "rootViewController"]
 - !private ["CSo11UIResponder", "shared"]
@@ -621,6 +633,7 @@ depends-member:
 - !private ["CSo16UIViewController", "MMOpenDrawerGestureMode"]
 - !private ["CSo16UIViewController", "SideMenuViewController"]
 - !private ["CSo16UIViewController", "SignUpViewController"]
+- ["CSo16UIViewController", "SkyFloatingLabelTextField"]
 - !private ["CSo16UIViewController", "UIApplication"]
 - ["CSo16UIViewController", "UIButton"]
 - !private ["CSo16UIViewController", "UINavigationController"]
@@ -628,6 +641,7 @@ depends-member:
 - ["CSo16UIViewController", "centerContainer"]
 - !private ["CSo16UIViewController", "closeDrawerGestureModeMask"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "emailTextField"]
 - ["CSo16UIViewController", "home"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "internetConnectionIndicator"]
@@ -636,6 +650,7 @@ depends-member:
 - !private ["CSo16UIViewController", "maximumLeftDrawerWidth"]
 - !private ["CSo16UIViewController", "navigationController"]
 - !private ["CSo16UIViewController", "openDrawerGestureModeMask"]
+- ["CSo16UIViewController", "passwordTextField"]
 - !private ["CSo16UIViewController", "pushViewController"]
 - !private ["CSo16UIViewController", "showsShadow"]
 - ["CSo16UIViewController", "signUpBtn"]
@@ -765,6 +780,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/arm64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/arm64.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/arm64.swiftmodule"
@@ -782,6 +798,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
@@ -796,6 +813,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
@@ -803,6 +821,7 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
@@ -810,4 +829,4 @@ depends-external:
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
 - "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphoneos/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
-interface-hash: "0e3bf939e26bf88dd6d7d67c1d0ffd7d"
+interface-hash: "c15f17c841fe013c60d8774be07a875d"

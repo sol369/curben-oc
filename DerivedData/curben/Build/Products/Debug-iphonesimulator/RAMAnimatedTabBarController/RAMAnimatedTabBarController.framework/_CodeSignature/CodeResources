@@ -16,13 +16,13 @@
 		<data>
 		10/YpzCB1vYQmENHwoeXNFtuRWY=
 		</data>
-		<key>Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/RAMAnimatedTabBarController.swiftmodule/i386.swiftdoc</key>
 		<data>
-		41N0pVmouuzgIkuWYULt12vES/4=
+		sw/isPCKcDmSfvcbY3iv0ZtREbU=
 		</data>
-		<key>Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/RAMAnimatedTabBarController.swiftmodule/i386.swiftmodule</key>
 		<data>
-		UIafSKBaOhVoqhSgWrup5KVd/r0=
+		POu8J9MxMOnaz0gsvg/1m+1xCiQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			CgTYT/ECkKfyUEx9AXJHJ4PAwkuIJEyN7RNe5pxS/3A=
 			</data>
 		</dict>
-		<key>Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/RAMAnimatedTabBarController.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			41N0pVmouuzgIkuWYULt12vES/4=
+			sw/isPCKcDmSfvcbY3iv0ZtREbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+VT4yGvApZo768U+o6MdnmR4iBO7+AEyLq5wCm5tfMw=
+			qlr3Q+mOVhR82P42eOBY6nXNI5EqMXrPKLgt1iN5s3Y=
 			</data>
 		</dict>
-		<key>Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/RAMAnimatedTabBarController.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UIafSKBaOhVoqhSgWrup5KVd/r0=
+			POu8J9MxMOnaz0gsvg/1m+1xCiQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sh8w0WabA7tTk+lg+8xUUwgJMDwZJOHN8uDfpRVwof4=
+			6fswgL/CZweKTjnD8b1ttsny3LQnlICDMojUefheM3Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

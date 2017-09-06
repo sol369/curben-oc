@@ -16,13 +16,13 @@
 		<data>
 		h0E15cMywo13aMlP6EomiOommbY=
 		</data>
-		<key>Modules/EFInternetIndicator.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/EFInternetIndicator.swiftmodule/i386.swiftdoc</key>
 		<data>
-		/jGWhYm7gqtxMhKk4VErMnyoptc=
+		+YwBZ2KuAEGXZ8eOjfhhQEuPBCk=
 		</data>
-		<key>Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/EFInternetIndicator.swiftmodule/i386.swiftmodule</key>
 		<data>
-		ytIN2x5KrYihv2LilTtY8btd3Ro=
+		LdbxvKHW3TeZXEbEfY6Lr5dFo1I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			dxcOG1zWoqn7JFdxEdeLPhXoNVyyr71N4fliaYHWd7c=
 			</data>
 		</dict>
-		<key>Modules/EFInternetIndicator.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/EFInternetIndicator.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/jGWhYm7gqtxMhKk4VErMnyoptc=
+			+YwBZ2KuAEGXZ8eOjfhhQEuPBCk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VriqlmjAPcEFEqxSAyNC0XW7RzrTyaLcyDk+f8zisIc=
+			QXB3WSfbGKvDlPFVz4/jkfUJncQ9IXtKX7tYcT08GUc=
 			</data>
 		</dict>
-		<key>Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/EFInternetIndicator.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ytIN2x5KrYihv2LilTtY8btd3Ro=
+			LdbxvKHW3TeZXEbEfY6Lr5dFo1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			n8UnR7/JvUD2+BO3RvYi45zY5Jw/sfNm3gJlS7Y69UI=
+			B6yZIF1y5d8n6PwtFxj+9122L1R02JDtS3eEUyZjByA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

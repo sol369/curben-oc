@@ -79,19 +79,27 @@ class CartViewController: UIViewController ,InternetStatusIndicable, UIScrollVie
     
     //FOR CUSTOM SCROLLVIEW
     func setupFrames() {
+        print(viewForScrollView.frame)
+        print(scrollViewWithIndicator.frame)
+        
         scrollViewWithIndicator.frame = viewForScrollView.frame
+        
+        print(viewForScrollView.frame)
+        print(scrollViewWithIndicator.frame)
         
         frame = viewForScrollView.frame
         
-        let xControl = viewForScrollView.center.x - 125
+        let xControl = viewForScrollView.center.x - (200 / 1.9)
         let yControl = viewForScrollView.frame.origin.y + 60
         pageControl.frame = CGRect(x: xControl, y: yControl, width: 200, height: 50)
     }
     
     func setupCustomScrollView() {
         scrollViewWithIndicator.delegate = self
-        self.pickupFooterView.addSubview(scrollViewWithIndicator)
-        self.scrollViewWithIndicator.center = self.viewForScrollView.center
+        
+        scrollViewWithIndicator.frame.origin.x = scrollViewWithIndicator.frame.origin.x - (scrollViewWithIndicator.frame.width / 2)
+        
+        self.viewForScrollView.addSubview(scrollViewWithIndicator)
         
         for index in 0..<5 {
             
@@ -159,7 +167,6 @@ class CartViewController: UIViewController ,InternetStatusIndicable, UIScrollVie
     
     func configurePageControl() {
         // The total number of pages that are available is based on how many available colors we have.
-        //let gray = UIColor(red: 243/255, green: 243/255, blue: 243/255, alpha: 1.0)
         self.pageControl.numberOfPages = scrollLabels.count
         self.pageControl.currentPage = 0
         self.pageControl.tintColor = UIColor.red

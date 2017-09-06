@@ -16,13 +16,13 @@
 		<data>
 		SjnXDstIsJr3h0ofvTlEhMM7IeU=
 		</data>
-		<key>Modules/ReachabilitySwift.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ReachabilitySwift.swiftmodule/i386.swiftdoc</key>
 		<data>
-		5eDH6A3qMETJxUW8qQXc731X2Ig=
+		vVWq4olZs5nVUSAARdQnoewXwb8=
 		</data>
-		<key>Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ReachabilitySwift.swiftmodule/i386.swiftmodule</key>
 		<data>
-		dMXjxyLr8jsYHJ+2185AwDuWDPg=
+		/XFQmW9Z2L1JONxdpc/9rDtfvRI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			uwXUstyKz6sA7NPFuWadfVv1HHURlWH21Tcdrm1Kv7Q=
 			</data>
 		</dict>
-		<key>Modules/ReachabilitySwift.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ReachabilitySwift.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5eDH6A3qMETJxUW8qQXc731X2Ig=
+			vVWq4olZs5nVUSAARdQnoewXwb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0JtcLTt71Sa27+kzDGt2otnwfOi0AALP4Ka73RgTc3M=
+			s6e1GB4t6jtrviZ2kyzrTDQTO2S/PrH5VZzyvZ0N1bY=
 			</data>
 		</dict>
-		<key>Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ReachabilitySwift.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMXjxyLr8jsYHJ+2185AwDuWDPg=
+			/XFQmW9Z2L1JONxdpc/9rDtfvRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Ccz31MXZJNZEZODv6L6RsiOd5A3cyu5BdGzAP0xgEQ=
+			d8gxbogAuSDJHGo/FLQZn7HybGP+UHscUcA9YnuhkoM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

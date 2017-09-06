@@ -16,13 +16,13 @@
 		<data>
 		Z7Fe1ZhpB601okUtFLJ2ZGsjWRw=
 		</data>
-		<key>Modules/SwiftMessages.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SwiftMessages.swiftmodule/i386.swiftdoc</key>
 		<data>
-		+AMnqlshmIyVERjGHlXWKx1Ueso=
+		+RoJucB30l0gKsHVFbKsJH8xCvY=
 		</data>
-		<key>Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SwiftMessages.swiftmodule/i386.swiftmodule</key>
 		<data>
-		ACt7T/CN//zopbG/XCVxmIEcubI=
+		mbSr4ui9y+fKFtatGGNyt0gEVDw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>SwiftMessages.bundle/Assets.car</key>
 		<data>
-		I2nlL/bNT6xAO7dgKmvHiv7Fr54=
+		oUtPnZ1AYnD4AesNnhsDr9ajHI8=
 		</data>
 		<key>SwiftMessages.bundle/CardView.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		n2Z4vYSMSTZUwI5oe1joeWO/d+k=
+		yQK8f44UoVDIITx+D/FX/VyGbaU=
 		</data>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		fg7sksdhvq44Ju7PagdlGfBMbTs=
+		/8476sSXcNQqSttFHKZ0+Q2ysAI=
 		</data>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Fs5+nCGYJIHWX4rbqTGk6jHRY1A=
+		YbN1OE2yaD9L1UUtaJKNhH7pkaA=
 		</data>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -105,26 +105,26 @@
 			/J6L+yCp/oa4jaz9Y8d1Jr3YEOvIMm5yFGCoY4Pd1VQ=
 			</data>
 		</dict>
-		<key>Modules/SwiftMessages.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SwiftMessages.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+AMnqlshmIyVERjGHlXWKx1Ueso=
+			+RoJucB30l0gKsHVFbKsJH8xCvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			IuXF7V/5cxvyG9M+yEX/HvxVDMcwynez8DPuIS0jy5Q=
+			mIBnlKQXakkMufK2Vd8qsl+v9u3cdgVmji2CIrjTBnU=
 			</data>
 		</dict>
-		<key>Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SwiftMessages.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ACt7T/CN//zopbG/XCVxmIEcubI=
+			mbSr4ui9y+fKFtatGGNyt0gEVDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VoK9jBPYLllP0+2yt/7EKxNBHKU7+kEMXicnuviyb2Y=
+			iK2Ap1XNHYIzhM/iFAWDm1W/+0k0jSxIwYxmf2qynCQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -142,11 +142,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I2nlL/bNT6xAO7dgKmvHiv7Fr54=
+			oUtPnZ1AYnD4AesNnhsDr9ajHI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VdQbHfMxedmFCsYks4vBUIFHjljvKOAGrAbImG4LNno=
+			PEwvDKef9NsrlIJt2psVi6Iv2BQ8SeSy+zNpp7YAkh0=
 			</data>
 		</dict>
 		<key>SwiftMessages.bundle/CardView.nib</key>
@@ -230,11 +230,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n2Z4vYSMSTZUwI5oe1joeWO/d+k=
+			yQK8f44UoVDIITx+D/FX/VyGbaU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zSvLSZAL6VGBiJaVlkjyj8UX0SSMt4aZ1eaLi5m5yCk=
+			eUqKK+KsVVgep3yll0SESEx4lw7yx158IOVw0whAdxA=
 			</data>
 		</dict>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeRequirements</key>
@@ -252,22 +252,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fg7sksdhvq44Ju7PagdlGfBMbTs=
+			/8476sSXcNQqSttFHKZ0+Q2ysAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BJiq79Ep4Egl2trRwR7GkhQk8SnYeNw7SRPBfe0xIzc=
+			YJIDjnpgF5ScNTHYuBfjx1Q5pwXpRqkVIEfIQDnbGM8=
 			</data>
 		</dict>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fs5+nCGYJIHWX4rbqTGk6jHRY1A=
+			YbN1OE2yaD9L1UUtaJKNhH7pkaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DnaKJKicSYqB134QmOSzpcpPWImJnjG9PAt2OLSsTrM=
+			vXxa/QIXmXyP9ZByGxlIG4Yp8GP4Us8KgHu2Ae5v69c=
 			</data>
 		</dict>
 		<key>SwiftMessages.bundle/_CodeSignature/CodeSignature</key>

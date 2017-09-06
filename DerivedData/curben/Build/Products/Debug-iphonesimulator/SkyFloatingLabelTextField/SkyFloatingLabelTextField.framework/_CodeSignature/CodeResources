@@ -16,13 +16,13 @@
 		<data>
 		JU60dwd3IecuW5uZUcgXg7u0PAE=
 		</data>
-		<key>Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SkyFloatingLabelTextField.swiftmodule/i386.swiftdoc</key>
 		<data>
-		pJQCJYZxM2T/kf5S/m8falmeYnA=
+		zRGJRl3Tq5KQSUfv79/lcCWQOWk=
 		</data>
-		<key>Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SkyFloatingLabelTextField.swiftmodule/i386.swiftmodule</key>
 		<data>
-		sPUa8ILaO0pfCBbVG27LBSdyVmo=
+		wLzwf/br+GBxlrDSXqugbwDTlMU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,26 +53,26 @@
 			twZOyDmmlox4Du/anq5g4qFLe4kl4EOVzrDhJT652kU=
 			</data>
 		</dict>
-		<key>Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SkyFloatingLabelTextField.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pJQCJYZxM2T/kf5S/m8falmeYnA=
+			zRGJRl3Tq5KQSUfv79/lcCWQOWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			T/Zwk0TDrVb2ahd8tMpXqPPe4megig+RoHM2Ff3LReo=
+			Ie/+hI7SVkxoQjThneDqzYNZuPWtfXZdSVAik6TTPjM=
 			</data>
 		</dict>
-		<key>Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SkyFloatingLabelTextField.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sPUa8ILaO0pfCBbVG27LBSdyVmo=
+			wLzwf/br+GBxlrDSXqugbwDTlMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HAviP5qJo0naiTrUAX1z71FjCBBIIstH2Mhrm7csi1s=
+			QANDq8S5jPGaFUWfbMCpGg/Lsoo8WcEAzAA6Kn4XhjQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
