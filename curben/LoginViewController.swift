@@ -44,64 +44,64 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
     //MARK: Button Actions
     
     @IBAction func loginBtn(_ sender: UIButton) {
-        let email_text = emailTextField.text
-        let passw_text = passwordTextField.text
+//        let email_text = emailTextField.text
+//        let passw_text = passwordTextField.text
+//        
+//        var url = URLRequest(url: URL(string: "https://uxcgwymfpx.localtunnel.me/api/sessions")!)
+//        url.httpMethod = "POST"
+//        
+//        let params = "email=\(email_text!)&password=\(passw_text!)"
+//        
+//        url.httpBody = params.data(using: String.Encoding.utf8)
+//        
+//        let task = URLSession.shared.dataTask(with: url) { (data: Data!, response:URLResponse!, error:Error?) in
+//            if error != nil
+//            {
+//                print ("ERROR")
+//            } else
+//            {
+//                do {
+//                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+//                    
+//                    DispatchQueue.main.async(execute: {
+//                        
+//                        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default){action in
+//                            self.dismiss(animated: true, completion: nil);
+//                        }
+//                        
+//                        if myJson["message"] as? String == "success"{
+//                            UserDefaults.standard.set(myJson["token"], forKey: "userToken")
+//                            UserDefaults.standard.set(myJson["uuid"], forKey: "userUuid")
+//                            
+//                            let myAlert = UIAlertController(title: "Success", message: "Login Successful", preferredStyle: UIAlertControllerStyle.alert)
+//                            
+//                            myAlert.addAction(okAction)
+//                            self.present(myAlert, animated: true, completion: nil)
         
-        var url = URLRequest(url: URL(string: "https://fpsjdxsdqo.localtunnel.me/api/sessions")!)
-        url.httpMethod = "POST"
-        
-        let params = "email=\(email_text!)&password=\(passw_text!)"
-        
-        url.httpBody = params.data(using: String.Encoding.utf8)
-        
-        let task = URLSession.shared.dataTask(with: url) { (data: Data!, response:URLResponse!, error:Error?) in
-            if error != nil
-            {
-                print ("ERROR")
-            } else
-            {
-                do {
-                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
-                    
-                    DispatchQueue.main.async(execute: {
-                        
-                        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default){action in
-                            self.dismiss(animated: true, completion: nil);
-                        }
-                        
-                        if myJson["message"] as? String == "success"{
-                            UserDefaults.standard.set(myJson["token"], forKey: "userToken")
-                            UserDefaults.standard.set(myJson["uuid"], forKey: "userUuid")
-                            
-                            let myAlert = UIAlertController(title: "Success", message: "Login Successful", preferredStyle: UIAlertControllerStyle.alert)
-                            
-                            myAlert.addAction(okAction)
-                            self.present(myAlert, animated: true, completion: nil)
-                            
                             self.home()
                             
-                        } else {
-                            let myAlert = UIAlertController(title: "Error", message: myJson["message"] as? String, preferredStyle: UIAlertControllerStyle.alert)
-                            
-                            myAlert.addAction(okAction)
-                            self.present(myAlert, animated: true, completion: nil)
-                            
-                            
-                        }
-                        
-                        
-                    })
-                    
-                    
-                    
-                } catch let error {
-                    print(error)
-                }
-                
-            }
-        }
-        
-        task.resume()
+//                        } else {
+//                            let myAlert = UIAlertController(title: "Error", message: myJson["message"] as? String, preferredStyle: UIAlertControllerStyle.alert)
+//                            
+//                            myAlert.addAction(okAction)
+//                            self.present(myAlert, animated: true, completion: nil)
+//                            
+//                            
+//                        }
+//                        
+//                        
+//                    })
+//                    
+//                    
+//                    
+//                } catch let error {
+//                    print(error)
+//                }
+//                
+//            }
+//        }
+//        
+//        task.resume()
 
 
 

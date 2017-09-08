@@ -31,6 +31,7 @@
 		1CC6C2321F4848BA00FE3545 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6C2301F4848BA00FE3545 /* TextFieldValidator.m */; };
 		1CC6C2331F4848BA00FE3545 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C2311F4848BA00FE3545 /* error@2x.png */; };
 		66633D7FC3417335D03C3223 /* Pods_curben.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4EF3CCA31B47DC8360B73 /* Pods_curben.framework */; };
+		E24C718D1F616992001D2E03 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C718C1F616992001D2E03 /* Vendor.swift */; };
 		E271A5BD1F5335980090027F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5B81F53356D0090027F /* SwiftyJSON.framework */; };
 		E271A5BE1F5335980090027F /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5B81F53356D0090027F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E271A5C11F53359D0090027F /* DGElasticPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59E1F53356D0090027F /* DGElasticPullToRefresh.framework */; };
@@ -303,6 +304,7 @@
 		50A16E003CF12F0E01F6292D /* Pods-curben.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curben.debug.xcconfig"; path = "Pods/Target Support Files/Pods-curben/Pods-curben.debug.xcconfig"; sourceTree = "<group>"; };
 		586ECF69B6327D664CC06999 /* Pods-curben.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curben.release.xcconfig"; path = "Pods/Target Support Files/Pods-curben/Pods-curben.release.xcconfig"; sourceTree = "<group>"; };
 		A6F4EF3CCA31B47DC8360B73 /* Pods_curben.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curben.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24C718C1F616992001D2E03 /* Vendor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		E271A5681F532DD40090027F /* curben-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "curben-BridgingHeader.h"; sourceTree = SOURCE_ROOT; };
 		E271A5691F5334140090027F /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		E271A5871F53356D0090027F /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 		1C5EA6721F4844DC007F447C /* curben */ = {
 			isa = PBXGroup;
 			children = (
+				E24C717E1F616959001D2E03 /* Models */,
 				1CC6C2261F4847A100FE3545 /* Helper Classes */,
 				1CC6C2251F48476F00FE3545 /* Xib */,
 				1CBB83B61F4C691600A13ED1 /* Models TableView */,
@@ -465,6 +468,14 @@
 				1CC6C2311F4848BA00FE3545 /* error@2x.png */,
 			);
 			name = "TextField Validation";
+			sourceTree = "<group>";
+		};
+		E24C717E1F616959001D2E03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E24C718C1F616992001D2E03 /* Vendor.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		E271A56A1F5334140090027F /* Products */ = {
@@ -920,6 +931,7 @@
 				E2D5BF981F5320F00043CE43 /* SDWebImageManager.m in Sources */,
 				E2D5BF951F5320F00043CE43 /* SDWebImageDecoder.m in Sources */,
 				1CC6C2321F4848BA00FE3545 /* TextFieldValidator.m in Sources */,
+				E24C718D1F616992001D2E03 /* Vendor.swift in Sources */,
 				1CBB83B81F4C699500A13ED1 /* OrdersModelCell.swift in Sources */,
 				E2D5BF991F5320F00043CE43 /* SDWebImagePrefetcher.m in Sources */,
 				E2D5BF9E1F5320F00043CE43 /* UIImageView+WebCache.m in Sources */,

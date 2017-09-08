@@ -8,8 +8,11 @@
 
 import UIKit
 import MMDrawerController
+import CoreLocation
 
 class HomeViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate , UITableViewDataSource {
+    let manager = CLLocationManager()
+    var vendors = [Vendor]()
 
     
     
@@ -34,6 +37,7 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        fetchVendors(lat: "\(manager.location!.coordinate.latitude)",lon: "\(manager.location!.coordinate.longitude)" )
 
         startMonitoringInternet()
 
@@ -48,19 +52,18 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         view.addGestureRecognizer(tap)
         
         // Do any additional setup after loading the view.
+        self.manager.desiredAccuracy = kCLLocationAccuracyBest
+        self.manager.requestWhenInUseAuthorization()
+        self.manager.startUpdatingLocation()
+        
+        
     }
-    
     
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    
-    
-    
     
     
     //MARK: Dismiss Searchbar Keyboard
@@ -70,8 +73,7 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         view.endEditing(true)
     }
     
-    
-    
+
     
     
     //MARK: Buttons Actions
@@ -85,10 +87,6 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     }
     
-    
-    
-    
-    
     //MARK: TableView
     
     
@@ -97,12 +95,16 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell")as! HomeTableViewCell
         
+        cell.titleLabel.text = self.vendors[indexPath.item].username
+        cell.distanceLabel.text = self.vendors[indexPath.item].distance
+        cell.priceLabel.text = self.vendors[indexPath.item].username
+        
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return self.vendors.count
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -111,6 +113,64 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 220
+    }
+    
+    func fetchVendors(lat: String, lon: String) {
+        var url = URLRequest(url: URL(string: "https://oorcixtnkq.localtunnel.me/api/vendors/nearests?lat=\(lat)&lon=\(lon)")!)
+        
+        url.httpMethod = "GET"
+        
+        let params = "lat=\(lat)&lon=\(lon)"
+        
+        url.httpBody = params.data(using: String.Encoding.utf8)
+
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                self.vendors = [Vendor]()
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+                    
+                    print(myJson)
+                    
+                    if let vendorsjson = myJson["vendors"] as? [[String : AnyObject]]{
+                        for vendorjson in vendorsjson {
+                            let vendor = Vendor()
+                            
+                            if let username = vendorjson["username"] as? String, let distance = vendorjson["distance"] as? String, let latitude = vendorjson["latitude"] as? Double, let longitude = vendorjson["longitude"] as? Double {
+                                vendor.username = username
+                                vendor.distance = distance
+                                vendor.latitude = latitude
+                                vendor.longitude = longitude
+                            }
+                            
+                            self.vendors.append(vendor)
+                        }
+                        
+                        
+                    }
+                    DispatchQueue.main.async {
+                        self.table.reloadData()
+//                        self.refresher.endRefreshing()
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+        
     }
 
 }
