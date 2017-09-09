@@ -11,6 +11,7 @@ import MMDrawerController
 
 
 class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate ,UITableViewDataSource{
+    var items = [Item]()
     
     
     
@@ -83,8 +84,15 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        self.numberOfRows = 5
-        return 5
+        
+        
+        if self.items.count > 0 {
+            self.numberOfRows = 5
+            return self.items.count
+        } else {
+            return 0
+        }
+
         
         
     }
@@ -94,16 +102,34 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         
        
         
-        return 3
+//      this will be number of dates we show for.
+        if self.items.count > 0 {
+            self.numberOfRows = 5
+            return self.items.count
+        } else {
+            let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
+            nodata.text = "You haven't placed an order"
+            nodata.textColor = UIColor.gray
+            nodata.textAlignment = .center
+            tableView.backgroundView = nodata
+            tableView.separatorStyle = .none
+            return 0
+        }
+
     }
     
   
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersHederTableViewCell")as! OrdersHederTableViewCell
         
-        cell.dateLabel.text = "Min"
+        
+        if self.items.count > 0 {
+            cell.dateLabel.text = "Min"
+            cell.contentView.isHidden = true
+        }
         
         return cell
+
     }
     
     
