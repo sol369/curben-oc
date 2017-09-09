@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -595,7 +594,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3iQ-3H-haa">
-                                                            <rect key="frame" x="8" y="0.0" width="312" height="90"/>
+                                                            <rect key="frame" x="22" y="0.0" width="298" height="90"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="#HD84D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQP-b9-o1b">
                                                                     <rect key="frame" x="0.0" y="5" width="53" height="16"/>
@@ -615,7 +614,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5tR-j9-J8L">
-                                                                    <rect key="frame" x="0.0" y="89" width="312" height="1"/>
+                                                                    <rect key="frame" x="0.0" y="89" width="298" height="1"/>
                                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="0.5" id="ehc-gH-aYI"/>
@@ -641,7 +640,7 @@
                                                     <constraints>
                                                         <constraint firstItem="3iQ-3H-haa" firstAttribute="top" secondItem="nbh-aC-Tpz" secondAttribute="top" id="A4X-Ij-ftF"/>
                                                         <constraint firstAttribute="bottom" secondItem="3iQ-3H-haa" secondAttribute="bottom" id="EIU-jh-3TW"/>
-                                                        <constraint firstItem="3iQ-3H-haa" firstAttribute="leading" secondItem="nbh-aC-Tpz" secondAttribute="leadingMargin" id="ILg-AY-7Tr"/>
+                                                        <constraint firstItem="3iQ-3H-haa" firstAttribute="leading" secondItem="nbh-aC-Tpz" secondAttribute="leading" constant="22" id="a1G-BG-9Sc"/>
                                                         <constraint firstAttribute="trailing" secondItem="3iQ-3H-haa" secondAttribute="trailing" id="x1P-Me-w2l"/>
                                                     </constraints>
                                                 </view>
@@ -656,6 +655,7 @@
                                         <connections>
                                             <outlet property="itemCountLabel" destination="kT3-3g-7AJ" id="Qfb-TS-ywI"/>
                                             <outlet property="itemLabel" destination="yrH-FI-d8G" id="cva-Sz-ozM"/>
+                                            <outlet property="timeLabel" destination="bQP-b9-o1b" id="jLv-ed-NSi"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

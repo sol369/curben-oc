@@ -11,7 +11,7 @@ import MMDrawerController
 
 
 class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate ,UITableViewDataSource{
-    var items = [Item]()
+    var items = [Vendor]()
     
     
     
@@ -62,14 +62,19 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        
+        if 1 > 0 {
+            return 1
+        } else {
+            return 0
+        }
+        
+        
+        
+    }
+
     
     
     //MARK: TableView
@@ -77,56 +82,19 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell")as! OrdersTableViewCell
         
+        cell.itemLabel.text = "Drink, Burger"
+        cell.itemCountLabel.text = "5 items"
+        cell.timeLabel.text = "#kjsiufdu89&H"
+        
         return cell
  
-    }
-    
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        
-        
-        if self.items.count > 0 {
-            self.numberOfRows = 5
-            return self.items.count
-        } else {
-            return 0
-        }
-
-        
-        
-    }
-    
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        
-       
-        
-//      this will be number of dates we show for.
-        if self.items.count > 0 {
-            self.numberOfRows = 5
-            return self.items.count
-        } else {
-            let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
-            nodata.text = "You Haven't Placed An Order"
-            nodata.textColor = UIColor.gray
-            nodata.textAlignment = .center
-            tableView.backgroundView = nodata
-            tableView.separatorStyle = .none
-            return 0
-        }
-
     }
     
   
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersHederTableViewCell")as! OrdersHederTableViewCell
         
-        
-        if self.items.count > 0 {
-            cell.dateLabel.text = "Min"
-            cell.contentView.isHidden = true
-        }
+        cell.dateLabel.text = "Min"
         
         return cell
 
