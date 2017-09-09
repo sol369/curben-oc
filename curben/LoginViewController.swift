@@ -15,6 +15,8 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
     //Variables
     var internetConnectionIndicator: InternetViewIndicator?
     var centerContainer: MMDrawerController = MMDrawerController()
+    var spinner:UIActivityIndicatorView = UIActivityIndicatorView()
+    
     
     
     //OUTLETS FROM STORYBOARD
@@ -44,10 +46,19 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
     //MARK: Button Actions
     
     @IBAction func loginBtn(_ sender: UIButton) {
+        spinner.center = self.view.center
+        spinner.hidesWhenStopped = true
+        spinner.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(spinner)
+        
+        spinner.startAnimating()
+        UIApplication.shared.beginIgnoringInteractionEvents()
+        
+        
         let email_text = emailTextField.text
         let passw_text = passwordTextField.text
         
-        var url = URLRequest(url: URL(string: "https://mwtciduphf.localtunnel.me/api/sessions")!)
+        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/sessions")!)
         url.httpMethod = "POST"
         
         let params = "email=\(email_text!)&password=\(passw_text!)"
@@ -70,6 +81,9 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
                         }
                         
                         if myJson["message"] as? String == "success"{
+                            self.spinner.stopAnimating()
+                            UIApplication.shared.endIgnoringInteractionEvents()
+                            
                             UserDefaults.standard.set(myJson["token"], forKey: "userToken")
                             UserDefaults.standard.set(myJson["uuid"], forKey: "userUuid")
                             

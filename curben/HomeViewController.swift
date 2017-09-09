@@ -105,7 +105,17 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.items.count
+        if self.items.count > 0 {
+            return self.items.count
+        } else {
+            let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
+            nodata.text = "No Vendors Near You"
+            nodata.textColor = UIColor.gray
+            nodata.textAlignment = .center
+            tableView.backgroundView = nodata
+            tableView.separatorStyle = .none
+            return 0
+        }
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -116,8 +126,9 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         return 220
     }
     
+    
     func fetchVendors(lat: String, lon: String) {
-        var url = URLRequest(url: URL(string: "https://mwtciduphf.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
+        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
         
         url.httpMethod = "GET"
         
@@ -134,9 +145,7 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
                 self.items = [Item]()
                 do {
                     let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
-                    
-                    print(myJson)
-                    
+                                        
                     if let vendorsjson = myJson["items"] as? [[String : AnyObject]]{
                         for vendorjson in vendorsjson {
                             let item = Item()
