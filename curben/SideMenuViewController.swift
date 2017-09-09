@@ -95,8 +95,70 @@ class SideMenuViewController: UIViewController  , InternetStatusIndicable  {
         
     }
     
-   
     
+    @IBAction func logout(_ sender: UIButton) {
+        let uuid = UserDefaults.standard.object(forKey: "userUuid")!
+        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/sessions/\(uuid)")!)
+        url.httpMethod = "DELETE"
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
+        
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+                    
+                    DispatchQueue.main.async(execute: {
+                        
+                        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default){action in
+                            self.dismiss(animated: true, completion: nil);
+                        }
+                        
+                        if myJson["message"] as? String == "success"{
+
+                            
+                            UserDefaults.standard.set(nil, forKey: "userToken")
+                            UserDefaults.standard.set(nil, forKey: "userUuid")
+                            
+                            
+                            let myAlert = UIAlertController(title: "Success", message: "Logout Successful", preferredStyle: UIAlertControllerStyle.alert)
+                            
+                            myAlert.addAction(okAction)
+                            self.present(myAlert, animated: true, completion: nil)
+                            
+                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            let authVC = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+                            let appDel = UIApplication.shared.delegate as! AppDelegate
+                            appDel.window?.rootViewController = authVC
+                            
+                            
+                            
+                        } else {
+                            let myAlert = UIAlertController(title: "Error", message: myJson["message"] as? String, preferredStyle: UIAlertControllerStyle.alert)
+                            
+                            myAlert.addAction(okAction)
+                            self.present(myAlert, animated: true, completion: nil)
+                            
+                            
+                        }
+                        
+                        
+                    })
+                    
+                    
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+    }
     
 }
 

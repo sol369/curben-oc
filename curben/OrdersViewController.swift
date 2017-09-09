@@ -108,7 +108,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
             return self.items.count
         } else {
             let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
-            nodata.text = "You haven't placed an order"
+            nodata.text = "You Haven't Placed An Order"
             nodata.textColor = UIColor.gray
             nodata.textAlignment = .center
             tableView.backgroundView = nodata
