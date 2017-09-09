@@ -52,6 +52,7 @@
 		E2D5BF9D1F5320F00043CE43 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF8D1F5320F00043CE43 /* UIImageView+HighlightedWebCache.m */; };
 		E2D5BF9E1F5320F00043CE43 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF8F1F5320F00043CE43 /* UIImageView+WebCache.m */; };
 		E2D5BF9F1F5320F00043CE43 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF911F5320F00043CE43 /* UIView+WebCacheOperation.m */; };
+		E2F466D31F643C2A0003F078 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F466D21F643C2A0003F078 /* Item.swift */; };
 		FC5D6D461F5342AD00251C2D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; };
 		FC5D6D471F5342AD00251C2D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59C1F53356D0090027F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FCB0F5981F60446E00484155 /* DirectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F5971F60446E00484155 /* DirectionTableViewCell.swift */; };
@@ -337,6 +338,7 @@
 		E2D5BF8F1F5320F00043CE43 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		E2D5BF901F5320F00043CE43 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		E2D5BF911F5320F00043CE43 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		E2F466D21F643C2A0003F078 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FCB0F5971F60446E00484155 /* DirectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionTableViewCell.swift; sourceTree = "<group>"; };
 		FCB0F5A61F6044A100484155 /* PickupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -474,6 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				E24C718C1F616992001D2E03 /* Vendor.swift */,
+				E2F466D21F643C2A0003F078 /* Item.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -924,6 +927,7 @@
 			files = (
 				1CC6C22E1F48480500FE3545 /* LoginViewController.swift in Sources */,
 				1CC6C22A1F4847B800FE3545 /* ApiManager.swift in Sources */,
+				E2F466D31F643C2A0003F078 /* Item.swift in Sources */,
 				1CBB83A11F4C47A600A13ED1 /* SignUpViewController.swift in Sources */,
 				1CBB83B51F4C64FA00A13ED1 /* OrdersHederTableViewCell.swift in Sources */,
 				E2D5BF9F1F5320F00043CE43 /* UIView+WebCacheOperation.m in Sources */,

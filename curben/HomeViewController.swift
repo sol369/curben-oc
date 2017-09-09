@@ -13,6 +13,7 @@ import CoreLocation
 class HomeViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate , UITableViewDataSource {
     let manager = CLLocationManager()
     var vendors = [Vendor]()
+    var items = [Item]()
 
     
     
@@ -95,16 +96,16 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell")as! HomeTableViewCell
         
-        cell.titleLabel.text = self.vendors[indexPath.item].username
-        cell.distanceLabel.text = self.vendors[indexPath.item].distance
-        cell.priceLabel.text = self.vendors[indexPath.item].username
+        cell.titleLabel.text = self.items[indexPath.item].title
+        cell.distanceLabel.text = self.items[indexPath.item].distance
+        cell.priceLabel.text = self.items[indexPath.item].price
         
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.vendors.count
+        return self.items.count
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -116,7 +117,7 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     }
     
     func fetchVendors(lat: String, lon: String) {
-        var url = URLRequest(url: URL(string: "https://oorcixtnkq.localtunnel.me/api/vendors/nearests?lat=\(lat)&lon=\(lon)")!)
+        var url = URLRequest(url: URL(string: "https://mwtciduphf.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
         
         url.httpMethod = "GET"
         
@@ -130,24 +131,26 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
                 print ("ERROR")
             } else
             {
-                self.vendors = [Vendor]()
+                self.items = [Item]()
                 do {
                     let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
                     
                     print(myJson)
                     
-                    if let vendorsjson = myJson["vendors"] as? [[String : AnyObject]]{
+                    if let vendorsjson = myJson["items"] as? [[String : AnyObject]]{
                         for vendorjson in vendorsjson {
-                            let vendor = Vendor()
+                            let item = Item()
                             
-                            if let username = vendorjson["username"] as? String, let distance = vendorjson["distance"] as? String, let latitude = vendorjson["latitude"] as? Double, let longitude = vendorjson["longitude"] as? Double {
-                                vendor.username = username
-                                vendor.distance = distance
-                                vendor.latitude = latitude
-                                vendor.longitude = longitude
+                            if let title = vendorjson["title"] as? String, let distance = vendorjson["distance"] as? String, let desc = vendorjson["description"] as? String, let vendor = vendorjson["vendor"] as? String, let price = vendorjson["price"] as? String, let uuid = vendorjson["uuid"] as? String {
+                                item.title = title
+                                item.distance = distance
+                                item.desc = desc
+                                item.vendor = vendor
+                                item.price = price
+                                item.uuid = uuid
                             }
                             
-                            self.vendors.append(vendor)
+                            self.items.append(item)
                         }
                         
                         

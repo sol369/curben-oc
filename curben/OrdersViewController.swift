@@ -76,16 +76,6 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell")as! OrdersTableViewCell
         
-        if indexPath.row == 0{
-            
-            cell.dotLineTopCons.constant = cell.contentView.frame.size.height / 2
-            
-        }
-        
-        else if indexPath.row == numberOfRows - 1{
-            cell.dotLineBottomCons.constant = cell.contentView.frame.size.height / 2
-        }
-   
         return cell
  
     }
@@ -93,8 +83,8 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        self.numberOfRows = 3
-        return 3
+        self.numberOfRows = 5
+        return 5
         
         
     }
@@ -104,12 +94,14 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         
        
         
-        return 2
+        return 3
     }
     
   
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersHederTableViewCell")as! OrdersHederTableViewCell
+        
+        cell.dateLabel.text = "Min"
         
         return cell
     }

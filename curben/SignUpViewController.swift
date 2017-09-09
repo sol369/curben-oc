@@ -50,7 +50,7 @@ class SignUpViewController: UIViewController ,InternetStatusIndicable{
         let passw_text = passwordTextField.text
         let passwcon_text = confirmPasswordTextField.text
         
-        var url = URLRequest(url: URL(string: "https://qmkyhtxvhs.localtunnel.me/api/signup")!)
+        var url = URLRequest(url: URL(string: "https://dqzguqssmg.localtunnel.me/api/signup")!)
         url.httpMethod = "POST"
         
         let params = "email=\(email_text!)&password=\(passw_text!)&password_confirmation=\(passwcon_text!)&account_type=customer"
