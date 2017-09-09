@@ -95,6 +95,9 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
                             self.home()
                             
                         } else {
+                            self.spinner.stopAnimating()
+                            UIApplication.shared.endIgnoringInteractionEvents()
+                            
                             let myAlert = UIAlertController(title: "Error", message: myJson["message"] as? String, preferredStyle: UIAlertControllerStyle.alert)
                             
                             myAlert.addAction(okAction)
