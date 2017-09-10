@@ -14,6 +14,7 @@ class OrdersTableViewCell: UITableViewCell {
     @IBOutlet var itemCount: UILabel!
     @IBOutlet var items: UILabel!
     @IBOutlet var price: UILabel!
+    @IBOutlet var date: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

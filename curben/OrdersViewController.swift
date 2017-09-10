@@ -83,8 +83,8 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         
         cell.charge.text = self.orders[indexPath.item].charge
         cell.itemCount.text = self.orders[indexPath.item].items
-        
         cell.price.text = self.orders[indexPath.item].price
+        cell.date.text = self.orders[indexPath.item].date
         
         return cell
  
@@ -105,7 +105,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     }
     
     func fetchOrders() {
-        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/orders")!)
+        var url = URLRequest(url: URL(string: "https://rhaxpcyber.localtunnel.me/api/orders")!)
         
         url.httpMethod = "GET"
         
@@ -124,7 +124,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
                         for vendorjson in vendorsjson {
                             let order = Order()
                             
-                            if let items = vendorjson["items"] as? String, let charge = vendorjson["charge"] as? String, let uuid = vendorjson["uuid"] as? String, let price = vendorjson["price"] as? String, let vendor = vendorjson["vendor"] as? String {
+                            if let items = vendorjson["items"] as? String, let charge = vendorjson["charge"] as? String, let uuid = vendorjson["uuid"] as? String, let price = vendorjson["price"] as? String, let vendor = vendorjson["vendor"] as? String, let date = vendorjson["date"] as? String {
 
                                 order.items = items
                                 order.charge = charge
@@ -132,6 +132,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
                                 order.uuid = uuid
                                 order.price = price
                                 order.vendor = vendor
+                                order.date = date
 
                             }
                             

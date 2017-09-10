@@ -128,7 +128,7 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     
     func fetchVendors(lat: String, lon: String) {
-        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
+        var url = URLRequest(url: URL(string: "https://rhaxpcyber.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
         
         url.httpMethod = "GET"
         
