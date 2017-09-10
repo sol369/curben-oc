@@ -11,9 +11,7 @@ import MMDrawerController
 
 
 class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate ,UITableViewDataSource{
-    
-    
-    
+    var orders = [Order]()
     
     @IBOutlet var table: UITableView!
     
@@ -33,6 +31,8 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
 
         
         startMonitoringInternet()
+        
+        fetchOrders()
 
         // Do any additional setup after loading the view.
     }
@@ -61,57 +61,39 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if orders.count > 0 {
+            tableView.backgroundView = nil
+            return orders.count
+        } else {
+            let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
+            nodata.text = "You Haven't Placed An Order"
+            nodata.textColor = UIColor.gray
+            nodata.textAlignment = .center
+            tableView.backgroundView = nodata
+            tableView.separatorStyle = .none
+            return 0
+    }
     
     
     
-    
-    
-    
-    
-    
-    
-    
+    }
+
+
+
     //MARK: TableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell")as! OrdersTableViewCell
         
-        if indexPath.row == 0{
-            
-            cell.dotLineTopCons.constant = cell.contentView.frame.size.height / 2
-            
-        }
+        cell.charge.text = self.orders[indexPath.item].charge
+        cell.itemCount.text = self.orders[indexPath.item].items
+        cell.price.text = self.orders[indexPath.item].price
+        cell.date.text = self.orders[indexPath.item].date
         
-        else if indexPath.row == numberOfRows - 1{
-            cell.dotLineBottomCons.constant = cell.contentView.frame.size.height / 2
-        }
-   
         return cell
  
-    }
-    
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        self.numberOfRows = 3
-        return 3
-        
-        
-    }
-    
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        
-       
-        
-        return 2
-    }
-    
-  
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersHederTableViewCell")as! OrdersHederTableViewCell
-        
-        return cell
     }
     
     
@@ -126,6 +108,65 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
+    }
+    
+    func fetchOrders() {
+        var url = URLRequest(url: URL(string: "https://apmidskdqi.localtunnel.me/api/orders")!)
+        
+        url.httpMethod = "GET"
+        
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                self.orders = [Order]()
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+                    
+                    if let vendorsjson = myJson["orders"] as? [[String : AnyObject]]{
+                        for vendorjson in vendorsjson {
+                            let order = Order()
+                            
+                            if let items = vendorjson["items"] as? String, let charge = vendorjson["charge"] as? String, let uuid = vendorjson["uuid"] as? String, let price = vendorjson["price"] as? String, let vendor = vendorjson["vendor"] as? String, let date = vendorjson["date"] as? String {
+
+                                order.items = items
+                                order.charge = charge
+                                
+                                order.uuid = uuid
+                                order.price = price
+                                order.vendor = vendor
+                                order.date = date
+
+                            }
+                            
+                            self.orders.append(order)
+                        }
+                        
+                        
+                    }
+                    
+                    DispatchQueue.main.async {
+                        self.table.reloadData()
+                        //                        self.refresher.endRefreshing()
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+        
     }
     
     

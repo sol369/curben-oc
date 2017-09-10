@@ -15,6 +15,8 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     //Variables
     var internetConnectionIndicator: InternetViewIndicator?
     var centerContainer: MMDrawerController = MMDrawerController()
+    var spinner:UIActivityIndicatorView = UIActivityIndicatorView()
+
 
     
     var grayColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1.0)
@@ -26,7 +28,6 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     
     @IBOutlet var editButtonLabel: UILabel!
     @IBOutlet var lockImage: UIImageView!
-    @IBOutlet var doneButton: UIButton!
     @IBOutlet var doneButtonView: UIView!
     
     @IBOutlet var emailTextField: SkyFloatingLabelTextField!
@@ -48,11 +49,12 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         
         phoneNumberTextField.delegate = self
     
-        
         startMonitoringInternet()
+        
+        fetchProfile()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         doneButtonView.isHidden = true
@@ -101,7 +103,7 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     }
 
     func toggleActive() {
-        if (phoneNumberTextField.text?.characters.count)! >= 12 {
+        if (phoneNumberTextField.text?.characters.count)! < 12 {
             
             callToAddPaymentButton.isHidden = false
             activeImageView.image = #imageLiteral(resourceName: "imgDelete")
@@ -117,9 +119,6 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     }
     
     //TEXTFIELD DELEGATES
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        toggleActive()
-    }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
@@ -163,6 +162,112 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         } else {
             return true
         }
+    }
+    
+    @IBAction func doneBttn(_ sender: Any) {
+        spinner.center = self.view.center
+        spinner.hidesWhenStopped = true
+        spinner.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(spinner)
+        
+        spinner.startAnimating()
+        UIApplication.shared.beginIgnoringInteractionEvents()
+        
+        var url = URLRequest(url: URL(string: "https://apmidskdqi.localtunnel.me/api/profile/update")!)
+        
+        url.httpMethod = "POST"
+        
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
+        
+        let params = "email=\(self.emailTextField.text!)&phone=\(self.phoneNumberTextField.text!)"
+        
+        url.httpBody = params.data(using: String.Encoding.utf8)
+
+        
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+                    
+                    if myJson["message"] as? String == "success"{
+                        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default){action in
+                            self.dismiss(animated: true, completion: nil);
+                        }
+                        let myAlert = UIAlertController(title: "Success", message: "Update Successful", preferredStyle: UIAlertControllerStyle.alert)
+                        
+                        myAlert.addAction(okAction)
+                        self.present(myAlert, animated: true, completion: nil)
+                    }
+                    
+                    
+                    DispatchQueue.main.async(){
+                        self.phoneNumberTextField.text = ""
+                        
+                        self.phoneNumberTextField.text = myJson["phone"] as! String
+                        self.emailTextField.text = myJson["email"] as! String
+                        
+                        self.spinner.stopAnimating()
+                        UIApplication.shared.endIgnoringInteractionEvents()
+                    }
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+
+        
+        
+    }
+    
+    func fetchProfile(){
+        spinner.center = self.view.center
+        spinner.hidesWhenStopped = true
+        spinner.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(spinner)
+        
+        spinner.startAnimating()
+        UIApplication.shared.beginIgnoringInteractionEvents()
+        
+        var url = URLRequest(url: URL(string: "https://apmidskdqi.localtunnel.me/api/profile")!)
+        
+        url.httpMethod = "GET"
+        
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+
+                    DispatchQueue.main.async(){
+                        self.phoneNumberTextField.text = myJson["phone"] as! String
+                        self.emailTextField.text = myJson["email"] as! String
+                        
+                        self.spinner.stopAnimating()
+                        UIApplication.shared.endIgnoringInteractionEvents()
+
+                    }
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+       
     }
 
 }
