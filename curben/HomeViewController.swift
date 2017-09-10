@@ -128,13 +128,14 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     
     func fetchVendors(lat: String, lon: String) {
-        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
+        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/items?lat=\(lat)&lon=\(lon)")!)
         
         url.httpMethod = "GET"
         
         let params = "lat=\(lat)&lon=\(lon)"
         
         url.httpBody = params.data(using: String.Encoding.utf8)
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
 
         let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
             if error != nil

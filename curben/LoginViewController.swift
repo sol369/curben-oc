@@ -58,7 +58,7 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
         let email_text = emailTextField.text
         let passw_text = passwordTextField.text
         
-        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/sessions")!)
+        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/sessions")!)
         url.httpMethod = "POST"
         
         let params = "email=\(email_text!)&password=\(passw_text!)"
@@ -86,7 +86,7 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
                             
                             UserDefaults.standard.set(myJson["token"], forKey: "userToken")
                             UserDefaults.standard.set(myJson["uuid"], forKey: "userUuid")
-                            
+                                                        
                             let myAlert = UIAlertController(title: "Success", message: "Login Successful", preferredStyle: UIAlertControllerStyle.alert)
                             
                             myAlert.addAction(okAction)

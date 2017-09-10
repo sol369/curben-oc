@@ -11,10 +11,7 @@ import MMDrawerController
 
 
 class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate ,UITableViewDataSource{
-    var items = [Vendor]()
-    
-    
-    
+    var orders = [Order]()    
     
     @IBOutlet var table: UITableView!
     
@@ -34,6 +31,8 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
 
         
         startMonitoringInternet()
+        
+        fetchOrders()
 
         // Do any additional setup after loading the view.
     }
@@ -65,8 +64,8 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         
-        if 1 > 0 {
-            return 1
+        if self.orders.count > 0 {
+            return self.orders.count
         } else {
             return 0
         }
@@ -82,22 +81,12 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell")as! OrdersTableViewCell
         
-        cell.itemLabel.text = "Drink, Burger"
+        cell.itemLabel.text = "hi"
         cell.itemCountLabel.text = "5 items"
         cell.timeLabel.text = "#kjsiufdu89&H"
         
         return cell
  
-    }
-    
-  
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersHederTableViewCell")as! OrdersHederTableViewCell
-        
-        cell.dateLabel.text = "Min"
-        
-        return cell
-
     }
     
     
@@ -112,6 +101,64 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
+    }
+    
+    func fetchOrders() {
+        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/orders")!)
+        
+        url.httpMethod = "GET"
+        
+        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
+        let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
+            if error != nil
+            {
+                print ("ERROR")
+            } else
+            {
+                self.orders = [Order]()
+                do {
+                    let myJson = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
+                    
+                    if let vendorsjson = myJson["orders"] as? [[String : AnyObject]]{
+                        for vendorjson in vendorsjson {
+                            let order = Order()
+                            
+                            if let items = vendorjson["items"] as? String, let charge = vendorjson["charge"] as? String, let uuid = vendorjson["uuid"] as? String, let price = vendorjson["price"] as? String, let vendor = vendorjson["vendor"] as? String {
+
+                                order.items = items
+                                order.charge_id = charge
+                                
+                                order.uuid = uuid
+                                order.price = price
+                                order.vendor = vendor
+
+                            }
+                            
+                            self.orders.append(order)
+                        }
+                        
+                        
+                    }
+                    
+                    DispatchQueue.main.async {
+                        self.table.reloadData()
+                        //                        self.refresher.endRefreshing()
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                } catch let error {
+                    print(error)
+                }
+                
+            }
+        }
+        
+        task.resume()
+        
     }
     
     

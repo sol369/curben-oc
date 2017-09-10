@@ -554,34 +554,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aEU-Ho-BLa" id="0yn-Z3-sCa">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7x-pA-hOi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="grey-text" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azs-bQ-mz7">
-                                                            <rect key="frame" x="25" y="9" width="42" height="18"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="0.95285791158676147" green="0.95299452543258667" blue="0.95282799005508423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstItem="azs-bQ-mz7" firstAttribute="leading" secondItem="s7x-pA-hOi" secondAttribute="leading" constant="25" id="S5H-bH-S8Z"/>
-                                                        <constraint firstItem="azs-bQ-mz7" firstAttribute="centerY" secondItem="s7x-pA-hOi" secondAttribute="centerY" id="ccG-O1-F7I"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="s7x-pA-hOi" secondAttribute="trailing" id="2X2-6P-PBC"/>
-                                                <constraint firstItem="s7x-pA-hOi" firstAttribute="top" secondItem="0yn-Z3-sCa" secondAttribute="top" id="KTD-yi-j1D"/>
-                                                <constraint firstItem="s7x-pA-hOi" firstAttribute="leading" secondItem="0yn-Z3-sCa" secondAttribute="leading" id="Q77-6Q-8mT"/>
-                                                <constraint firstAttribute="bottom" secondItem="s7x-pA-hOi" secondAttribute="bottom" id="TaE-IZ-Ofd"/>
-                                            </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="dateLabel" destination="azs-bQ-mz7" id="ghM-sH-SvS"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrdersTableViewCell" rowHeight="90" id="Bif-uA-TcU" customClass="OrdersTableViewCell" customModule="curben" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="63" width="320" height="90"/>

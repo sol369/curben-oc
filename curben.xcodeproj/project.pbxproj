@@ -38,6 +38,7 @@
 		E271A5C21F53359D0090027F /* DGElasticPullToRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A59E1F53356D0090027F /* DGElasticPullToRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E271A5C51F5335A30090027F /* EFInternetIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5A01F53356D0090027F /* EFInternetIndicator.framework */; };
 		E271A5C61F5335A30090027F /* EFInternetIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E271A5A01F53356D0090027F /* EFInternetIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E27225361F64DA8F000D10B6 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27225351F64DA8F000D10B6 /* Order.swift */; };
 		E2D5BF921F5320F00043CE43 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF761F5320EF0043CE43 /* NSData+ImageContentType.m */; };
 		E2D5BF931F5320F00043CE43 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF781F5320EF0043CE43 /* SDImageCache.m */; };
 		E2D5BF941F5320F00043CE43 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5BF7A1F5320EF0043CE43 /* SDWebImageCompat.m */; };
@@ -309,6 +310,7 @@
 		E271A5681F532DD40090027F /* curben-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "curben-BridgingHeader.h"; sourceTree = SOURCE_ROOT; };
 		E271A5691F5334140090027F /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		E271A5871F53356D0090027F /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		E27225351F64DA8F000D10B6 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E2D5BF751F5320EF0043CE43 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		E2D5BF761F5320EF0043CE43 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		E2D5BF771F5320EF0043CE43 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -477,6 +479,7 @@
 			children = (
 				E24C718C1F616992001D2E03 /* Vendor.swift */,
 				E2F466D21F643C2A0003F078 /* Item.swift */,
+				E27225351F64DA8F000D10B6 /* Order.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -947,6 +950,7 @@
 				E2D5BF921F5320F00043CE43 /* NSData+ImageContentType.m in Sources */,
 				E2D5BF941F5320F00043CE43 /* SDWebImageCompat.m in Sources */,
 				1C382A931F4D589400A45D08 /* PickupModelCell.swift in Sources */,
+				E27225361F64DA8F000D10B6 /* Order.swift in Sources */,
 				1C5EA6761F4844DC007F447C /* ViewController.swift in Sources */,
 				E2D5BF931F5320F00043CE43 /* SDImageCache.m in Sources */,
 				E2D5BF961F5320F00043CE43 /* SDWebImageDownloader.m in Sources */,

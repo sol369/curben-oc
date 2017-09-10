@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "curben/OrdersViewController.swift"
+            timestampString = "526708373.017263"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "curben.OrdersViewController.(fetchOrders () -&gt; ()).(closure #1)"
+                  moduleName = "curben"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/pushdis-1/CurbenCus/curben/OrdersViewController.swift"
+                  timestampString = "526706607.428949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "curben.OrdersViewController.(fetchOrders () -&gt; ()).(closure #1)"
+                  moduleName = "curben"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/pushdis-1/CurbenCus/curben/OrdersViewController.swift"
+                  timestampString = "526706607.432212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

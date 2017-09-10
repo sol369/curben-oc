@@ -98,7 +98,7 @@ class SideMenuViewController: UIViewController  , InternetStatusIndicable  {
     
     @IBAction func logout(_ sender: UIButton) {
         let uuid = UserDefaults.standard.object(forKey: "userUuid")!
-        var url = URLRequest(url: URL(string: "https://xkfcgtvbwt.localtunnel.me/api/sessions/\(uuid)")!)
+        var url = URLRequest(url: URL(string: "https://fhzfhagowt.localtunnel.me/api/sessions/\(uuid)")!)
         url.httpMethod = "DELETE"
         url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
         
