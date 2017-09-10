@@ -10,8 +10,9 @@ import UIKit
 
 class Order: NSObject {
     var items: String!
-    var charge_id: String!
+    var charge: String!
     var uuid: String!
     var price: String!
     var vendor: String!
+    var date: String!
 }

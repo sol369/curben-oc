@@ -135,7 +135,6 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         let params = "lat=\(lat)&lon=\(lon)"
         
         url.httpBody = params.data(using: String.Encoding.utf8)
-        url.setValue(UserDefaults.standard.object(forKey: "userUuid") as? String, forHTTPHeaderField: "tb-auth-token")
 
         let task = URLSession.shared.dataTask(with: url) { (data: Data?, response:URLResponse?, error:Error?) in
             if error != nil

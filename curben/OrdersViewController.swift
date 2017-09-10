@@ -11,7 +11,7 @@ import MMDrawerController
 
 
 class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate ,UITableViewDataSource{
-    var orders = [Order]()    
+    var orders = [Order]()
     
     @IBOutlet var table: UITableView!
     
@@ -81,9 +81,10 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell")as! OrdersTableViewCell
         
-        cell.itemLabel.text = "hi"
-        cell.itemCountLabel.text = "5 items"
-        cell.timeLabel.text = "#kjsiufdu89&H"
+        cell.charge.text = self.orders[indexPath.item].charge
+        cell.itemCount.text = self.orders[indexPath.item].items
+        
+        cell.price.text = self.orders[indexPath.item].price
         
         return cell
  
@@ -126,7 +127,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
                             if let items = vendorjson["items"] as? String, let charge = vendorjson["charge"] as? String, let uuid = vendorjson["uuid"] as? String, let price = vendorjson["price"] as? String, let vendor = vendorjson["vendor"] as? String {
 
                                 order.items = items
-                                order.charge_id = charge
+                                order.charge = charge
                                 
                                 order.uuid = uuid
                                 order.price = price

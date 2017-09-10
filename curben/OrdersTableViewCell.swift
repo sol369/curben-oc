@@ -10,17 +10,10 @@ import UIKit
 
 class OrdersTableViewCell: UITableViewCell {
 
-    @IBOutlet var dotLine: UIView!
-    
-    @IBOutlet var dotLineTopCons: NSLayoutConstraint!
-    
-    @IBOutlet var dotLineBottomCons: NSLayoutConstraint!
-    
-    @IBOutlet var dot: UIView!
-    
-    @IBOutlet var timeLabel: UILabel!
-    @IBOutlet var itemCountLabel: UILabel!
-    @IBOutlet var itemLabel: UILabel!
+    @IBOutlet var charge: UILabel!
+    @IBOutlet var itemCount: UILabel!
+    @IBOutlet var items: UILabel!
+    @IBOutlet var price: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
