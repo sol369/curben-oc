@@ -26,7 +26,6 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     
     @IBOutlet var editButtonLabel: UILabel!
     @IBOutlet var lockImage: UIImageView!
-    @IBOutlet var doneButton: UIButton!
     @IBOutlet var doneButtonView: UIView!
     
     @IBOutlet var emailTextField: SkyFloatingLabelTextField!
@@ -50,7 +49,7 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
     
         startMonitoringInternet()
         
-//        fetchProfile()
+        fetchProfile()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -164,6 +163,20 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         } else {
             return true
         }
+    }
+    
+    @IBAction func doneBttn(_ sender: Any) {
+        print("SENT")
+    }
+    
+    func fetchProfile(){
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default){action in
+            self.dismiss(animated: true, completion: nil);
+        }
+        let myAlert = UIAlertController(title: "Success", message: "Login Successful", preferredStyle: UIAlertControllerStyle.alert)
+        
+        myAlert.addAction(okAction)
+        self.present(myAlert, animated: true, completion: nil)
     }
 
 }

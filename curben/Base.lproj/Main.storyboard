@@ -716,7 +716,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w2-mg-gSz">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                         <connections>
-                                            <action selector="signUpBtn:" destination="eqv-Jx-rWo" eventType="touchUpInside" id="1Wt-XW-IoG"/>
+                                            <action selector="doneBttn:" destination="C3s-0W-kyq" eventType="touchUpInside" id="uTb-Py-fcJ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -929,7 +929,6 @@
                     <connections>
                         <outlet property="activeImageView" destination="hqb-8v-lKi" id="ZmY-eh-J3d"/>
                         <outlet property="callToAddPaymentButton" destination="7EI-OC-DZM" id="vvm-Hm-IsN"/>
-                        <outlet property="doneButton" destination="0w2-mg-gSz" id="Dbd-4x-4dg"/>
                         <outlet property="doneButtonView" destination="GWa-R3-7SW" id="agk-4O-cnI"/>
                         <outlet property="editButtonLabel" destination="DVc-m4-zlp" id="raM-qi-aAr"/>
                         <outlet property="emailTextField" destination="3UO-hP-Ihq" id="r9d-Ug-IO3"/>
