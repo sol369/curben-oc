@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "0754970b58915afffdfe5e848806452f"
+build_time: [558382659, 850020000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [558376652, 0]

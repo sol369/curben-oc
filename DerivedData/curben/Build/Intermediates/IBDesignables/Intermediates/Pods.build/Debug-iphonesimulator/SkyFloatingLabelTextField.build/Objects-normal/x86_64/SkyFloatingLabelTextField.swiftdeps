@@ -3213,6 +3213,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
-- "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/unextended-module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/unextended-module.modulemap"
 interface-hash: "43f899682499f7131a41a7f08b049875"

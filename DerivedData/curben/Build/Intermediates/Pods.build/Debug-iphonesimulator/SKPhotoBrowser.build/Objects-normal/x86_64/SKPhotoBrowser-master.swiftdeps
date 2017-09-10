@@ -1,0 +1,23 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f14a753f78091bbeb18bc88286234d80"
+build_time: [558382673, 450160000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKAnimator.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKButtons.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCache.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCacheable.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKCaptionView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKDetectingImageView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKDetectingView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKIndicatorView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKLocalPhoto.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKMesurement.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPagingScrollView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhoto.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowserDelegate.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowserOptions.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKToolbar.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKZoomingScrollView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/extensions/UIImage+Rotation.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/extensions/UIView+Radius.swift": [558376652, 0]

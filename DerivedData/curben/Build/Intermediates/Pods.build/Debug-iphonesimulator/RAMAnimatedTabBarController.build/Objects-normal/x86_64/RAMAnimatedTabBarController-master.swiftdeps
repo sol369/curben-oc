@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "029fdf8b29d72349f231a3273d2da924"
+build_time: [558382671, 938500000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift": [558376652, 0]

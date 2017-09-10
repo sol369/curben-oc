@@ -11,11 +11,13 @@ import MMDrawerController
 import CoreLocation
 
 class HomeViewController: UIViewController ,InternetStatusIndicable, UITableViewDelegate , UITableViewDataSource {
+    
     let manager = CLLocationManager()
     var vendors = [Vendor]()
     var items = [Item]()
 
     
+    var orangeCheckedCells = [Item]()
     
     
     //MARK: Outelets
@@ -24,16 +26,10 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     @IBOutlet var searchbar: UISearchBar!
     
-    
-    
-    
-    //Variables
-    
-    var internetConnectionIndicator: InternetViewIndicator?
-    
-    
 
     
+    //Variables
+    var internetConnectionIndicator: InternetViewIndicator?
     
     
     override func viewDidLoad() {
@@ -46,8 +42,6 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         self.table.dataSource = self
         self.table.tableFooterView = UIView()
         
-        
-        
         //Dismiss searchbar keyboard
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))           
         view.addGestureRecognizer(tap)
@@ -56,7 +50,6 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
         self.manager.desiredAccuracy = kCLLocationAccuracyBest
         self.manager.requestWhenInUseAuthorization()
         self.manager.startUpdatingLocation()
-        
         
     }
     
@@ -88,23 +81,59 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
     
     }
     
+    func cartButtonPressed(sender: UIButton) {
+        
+        let indexPath = IndexPath(row: sender.tag, section: 0)
+        
+        let item = items[indexPath.row]
+
+        if orangeCheckedCells.contains(item) {
+            var index = 0
+            for c in orangeCheckedCells {
+                if c == item {
+                    orangeCheckedCells.remove(at: index)
+                }
+                index += 1
+            }
+            
+        } else {
+            orangeCheckedCells.append(item)
+        }
+        
+        table.reloadData()
+        
+    }
+    
     //MARK: TableView
-    
-    
-   
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell")as! HomeTableViewCell
         
+        let item = items[indexPath.row]
+    
         cell.titleLabel.text = self.items[indexPath.item].title
         cell.distanceLabel.text = self.items[indexPath.item].distance
         cell.priceLabel.text = self.items[indexPath.item].price
         
+        cell.cartButton.tag = indexPath.row
+        
+        cell.cartButton.addTarget(self, action: #selector(self.cartButtonPressed(sender:)), for: .touchUpInside)
+        
+        let cartImage = #imageLiteral(resourceName: "imgCartWhite")
+        let orangeCheckImage = #imageLiteral(resourceName: "imgTickOrange")
+        
+        if orangeCheckedCells.contains(item) {
+            cell.cartImageView.image = orangeCheckImage
+
+        } else {
+            cell.cartImageView.image = cartImage
+        }
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+    
         if self.items.count > 0 {
             return self.items.count
         } else {
@@ -116,6 +145,8 @@ class HomeViewController: UIViewController ,InternetStatusIndicable, UITableView
             tableView.separatorStyle = .none
             return 0
         }
+ 
+    
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {

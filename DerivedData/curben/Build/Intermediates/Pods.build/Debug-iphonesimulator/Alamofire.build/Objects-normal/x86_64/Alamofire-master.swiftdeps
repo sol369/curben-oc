@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f9eaf307c51cfde501daef3ae2ab805e"
+build_time: [558382661, 34365000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/AFError.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Alamofire.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/MultipartFormData.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Notifications.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/ParameterEncoding.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Request.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Response.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/ResponseSerialization.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Result.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/ServerTrustPolicy.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/SessionDelegate.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/SessionManager.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/TaskDelegate.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Timeline.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/Alamofire/Source/Validation.swift": [558376652, 0]

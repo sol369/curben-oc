@@ -30,6 +30,8 @@ class LoginViewController: UIViewController ,InternetStatusIndicable{
         super.viewDidLoad()
 
         startMonitoringInternet()
+        
+        self.home()
 
         
         // Do any additional setup after loading the view.

@@ -4,561 +4,561 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
           'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "DGElasticPullToRefresh-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
         },
         {
           'type': 'file',
           'name': "DGElasticPullToRefresh-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/DGElasticPullToRefresh.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/DGElasticPullToRefresh.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "EFInternetIndicator-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
         },
         {
           'type': 'file',
           'name': "EFInternetIndicator-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/EFInternetIndicator/EFInternetIndicator-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/EFInternetIndicator/EFInternetIndicator-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/EFInternetIndicator.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/EFInternetIndicator.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "IQKeyboardManagerSwift-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
         },
         {
           'type': 'file',
           'name': "IQKeyboardManagerSwift-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ImageViewer-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Headers/ImageViewer-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Headers/ImageViewer-Swift.h"
         },
         {
           'type': 'file',
           'name': "ImageViewer-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/ImageViewer/ImageViewer-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/ImageViewer/ImageViewer-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ImageViewer/ImageViewer.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ImageViewer.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ImageViewer.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MMDrawerBarButtonItem.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.h"
         },
         {
           'type': 'file',
           'name': "MMDrawerController+Subclass.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/MMDrawerController/MMDrawerController/MMDrawerController+Subclass.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/MMDrawerController/MMDrawerController/MMDrawerController+Subclass.h"
         },
         {
           'type': 'file',
           'name': "MMDrawerController-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-Swift.h"
         },
         {
           'type': 'file',
           'name': "MMDrawerController-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/MMDrawerController/MMDrawerController-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/MMDrawerController/MMDrawerController-umbrella.h"
         },
         {
           'type': 'file',
           'name': "MMDrawerController.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/MMDrawerController/MMDrawerController/MMDrawerController.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/MMDrawerController/MMDrawerController/MMDrawerController.h"
         },
         {
           'type': 'file',
           'name': "MMDrawerVisualState.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/MMDrawerController/MMDrawerController/MMDrawerVisualState.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/MMDrawerController/MMDrawerController/MMDrawerVisualState.h"
         },
         {
           'type': 'file',
           'name': "UIViewController+MMDrawerController.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/MMDrawerController/MMDrawerController/UIViewController+MMDrawerController.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/MMDrawerController/MMDrawerController/UIViewController+MMDrawerController.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/MMDrawerController.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/MMDrawerController.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-curben-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/Pods-curben/Pods-curben-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/Pods-curben/Pods-curben-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_curben-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Headers/Pods_curben-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Headers/Pods_curben-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Pods_curben.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-curben.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-curben.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RAMAnimatedTabBarController-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
         },
         {
           'type': 'file',
           'name': "RAMAnimatedTabBarController-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/RAMAnimatedTabBarController.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/RAMAnimatedTabBarController.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ReachabilitySwift-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
         },
         {
           'type': 'file',
           'name': "ReachabilitySwift-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReachabilitySwift.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReachabilitySwift.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "NSData+ImageContentType.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
         },
         {
           'type': 'file',
           'name': "SDImageCache.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDImageCache.h"
         },
         {
           'type': 'file',
           'name': "SDWebImage-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
         },
         {
           'type': 'file',
           'name': "SDWebImage-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageCompat.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageDecoder.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageDownloader.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageDownloaderOperation.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageManager.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
         },
         {
           'type': 'file',
           'name': "SDWebImageOperation.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
         },
         {
           'type': 'file',
           'name': "SDWebImagePrefetcher.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
         },
         {
           'type': 'file',
           'name': "UIButton+WebCache.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
         },
         {
           'type': 'file',
           'name': "UIImage+GIF.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
         },
         {
           'type': 'file',
           'name': "UIImage+MultiFormat.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
         },
         {
           'type': 'file',
           'name': "UIImageView+HighlightedWebCache.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
         },
         {
           'type': 'file',
           'name': "UIImageView+WebCache.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
         },
         {
           'type': 'file',
           'name': "UIView+WebCacheOperation.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SKPhotoBrowser-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
         },
         {
           'type': 'file',
           'name': "SKPhotoBrowser-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
         },
         {
           'type': 'file',
           'name': "SKPhotoBrowser.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SkyFloatingLabelTextField-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
         },
         {
           'type': 'file',
           'name': "SkyFloatingLabelTextField-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftMessages-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
         },
         {
           'type': 'file',
           'name': "SwiftMessages-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
           'name': "SwiftyJSON-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Headers",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "TOActivityCroppedImageProvider.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Models/TOActivityCroppedImageProvider.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Models/TOActivityCroppedImageProvider.h"
         },
         {
           'type': 'file',
           'name': "TOCropOverlayView.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Views/TOCropOverlayView.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Views/TOCropOverlayView.h"
         },
         {
           'type': 'file',
           'name': "TOCropScrollView.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Views/TOCropScrollView.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Views/TOCropScrollView.h"
         },
         {
           'type': 'file',
           'name': "TOCropToolbar.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Views/TOCropToolbar.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Views/TOCropToolbar.h"
         },
         {
           'type': 'file',
           'name': "TOCropView.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Views/TOCropView.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Views/TOCropView.h"
         },
         {
           'type': 'file',
           'name': "TOCropViewController-Bridging-Header.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/TOCropViewController-Bridging-Header.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/TOCropViewController-Bridging-Header.h"
         },
         {
           'type': 'file',
           'name': "TOCropViewController-Swift.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Headers/TOCropViewController-Swift.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Headers/TOCropViewController-Swift.h"
         },
         {
           'type': 'file',
           'name': "TOCropViewController-umbrella.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/Target Support Files/TOCropViewController/TOCropViewController-umbrella.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/Target Support Files/TOCropViewController/TOCropViewController-umbrella.h"
         },
         {
           'type': 'file',
           'name': "TOCropViewController.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/TOCropViewController.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/TOCropViewController.h"
         },
         {
           'type': 'file',
           'name': "TOCropViewControllerTransitioning.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Models/TOCropViewControllerTransitioning.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Models/TOCropViewControllerTransitioning.h"
         },
         {
           'type': 'file',
           'name': "TOCroppedImageAttributes.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Models/TOCroppedImageAttributes.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Models/TOCroppedImageAttributes.h"
         },
         {
           'type': 'file',
           'name': "UIImage+CropRotate.h",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/Pods/TOCropViewController/TOCropViewController/Models/UIImage+CropRotate.h"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/Pods/TOCropViewController/TOCropViewController/Models/UIImage+CropRotate.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Modules",
+      'name': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/TOCropViewController/TOCropViewController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sol369/Downloads/curben-oc-master/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/TOCropViewController.build/module.modulemap"
+          'external-contents': "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Intermediates/Pods.build/Debug-iphonesimulator/TOCropViewController.build/module.modulemap"
         }
       ]
     }

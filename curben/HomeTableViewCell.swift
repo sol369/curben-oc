@@ -15,6 +15,8 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet var distanceLabel: UILabel!
     @IBOutlet var cartButton: UIButton!
     @IBOutlet var priceLabel: UILabel!
+    @IBOutlet var cartImageView: UIImageView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

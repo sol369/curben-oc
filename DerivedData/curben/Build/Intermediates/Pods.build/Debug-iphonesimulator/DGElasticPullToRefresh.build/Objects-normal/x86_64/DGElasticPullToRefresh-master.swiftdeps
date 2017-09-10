@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "36fb2aa801a95f02691a0bc703ee9935"
+build_time: [558382657, 131804000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/DGElasticPullToRefresh/DGElasticPullToRefresh/DGElasticPullToRefreshConstants.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/DGElasticPullToRefresh/DGElasticPullToRefresh/DGElasticPullToRefreshExtensions.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/DGElasticPullToRefresh/DGElasticPullToRefresh/DGElasticPullToRefreshLoadingView.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/DGElasticPullToRefresh/DGElasticPullToRefresh/DGElasticPullToRefreshLoadingViewCircle.swift": [558376652, 0]
+  "/Users/sol369/Desktop/curben-oc/Pods/DGElasticPullToRefresh/DGElasticPullToRefresh/DGElasticPullToRefreshView.swift": [558376652, 0]

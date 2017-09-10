@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "494dab988b3c1a7de4f82c2ec1f20e55"
+build_time: [558382659, 291347000]
+inputs:
+  "/Users/sol369/Desktop/curben-oc/Pods/ReachabilitySwift/Reachability/Reachability.swift": [558376652, 0]

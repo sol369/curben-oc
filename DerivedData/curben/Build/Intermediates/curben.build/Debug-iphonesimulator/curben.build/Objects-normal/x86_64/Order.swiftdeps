@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Order"
+provides-nominal:
+- "C6curben5Order"
+provides-member:
+- ["C6curben5Order", ""]
+provides-dynamic-lookup:
+- "charge"
+- "date"
+- "items"
+- "price"
+- "uuid"
+- "vendor"
+depends-top-level:
+- "NSObject"
+- "Order"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "charge"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "items"]
+- ["CSo8NSObject", "price"]
+- ["CSo8NSObject", "uuid"]
+- ["CSo8NSObject", "vendor"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C6curben5Order", "String"]
+- ["C6curben5Order", "charge"]
+- ["C6curben5Order", "date"]
+- ["C6curben5Order", "deinit"]
+- ["C6curben5Order", "init"]
+- ["C6curben5Order", "items"]
+- ["C6curben5Order", "price"]
+- ["C6curben5Order", "uuid"]
+- ["C6curben5Order", "vendor"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6curben5Order"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/DGElasticPullToRefresh.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/EFInternetIndicator.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerVisualState.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerBarButtonItem.h"
+- "/Users/sol369/Desktop/curben-oc/curben-BridgingHeader.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/UIViewController+MMDrawerController.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController+Subclass.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Headers/DGElasticPullToRefresh-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Headers/EFInternetIndicator-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/DGElasticPullToRefresh/DGElasticPullToRefresh.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/EFInternetIndicator/EFInternetIndicator.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/curben-oc/DerivedData/curben/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework/Modules/module.modulemap"
+interface-hash: "a9297f41ebf574205e81a77db60fd840"
