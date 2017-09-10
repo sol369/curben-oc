@@ -48,8 +48,9 @@ class ProfileViewController: UIViewController , UIScrollViewDelegate , InternetS
         
         phoneNumberTextField.delegate = self
     
-        
         startMonitoringInternet()
+        
+//        fetchProfile()
     }
     
     override func viewWillAppear(_ animated: Bool) {
