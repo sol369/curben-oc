@@ -67,15 +67,21 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         if self.orders.count > 0 {
             return self.orders.count
         } else {
+            let nodata: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
+            nodata.text = "You Haven't Placed An Order"
+            nodata.textColor = UIColor.gray
+            nodata.textAlignment = .center
+            tableView.backgroundView = nodata
+            tableView.separatorStyle = .none
             return 0
         }
-        
-        
-        
+    
+    
+    
     }
 
-    
-    
+
+
     //MARK: TableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -89,21 +95,7 @@ class OrdersViewController: UIViewController ,InternetStatusIndicable, UITableVi
         return cell
  
     }
-    
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 35
-    }
-    
-    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90
-    }
-    
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
-    
+
     func fetchOrders() {
         var url = URLRequest(url: URL(string: "https://rhaxpcyber.localtunnel.me/api/orders")!)
         
